@@ -1,0 +1,238 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--- South Indian Vedic Chart Template for Kerykeion -->
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:kr="https://www.kerykeion.net/"
+    width="100%"
+    height="100%"
+    viewBox="0 0 800 600"
+    preserveAspectRatio="xMidYMid"
+    style="background-color: #FFFFFF"
+>
+    <title>Historical Subject - SI - South Indian Vedic Chart | South Indian Vedic Chart | Kerykeion</title>
+
+    <!-- Colors -->
+    <style kr:node="Theme_Colors_Tag">
+        
+                .house-box { fill: #F8F8F8; stroke: #333333; }
+                .house-number { fill: #333333; }
+                .planet-text { fill: #800080; }
+                .sign-text { fill: #008000; }
+                .chart-title { fill: #000080; }
+            
+        .house-box {
+            fill: #FFFFFF;
+            stroke: #000000;
+            stroke-width: 2;
+        }
+        .house-number {
+            fill: #000000;
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            font-weight: bold;
+        }
+        .planet-text {
+            fill: #000000;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            font-weight: normal;
+        }
+        .sign-text {
+            fill: #000000;
+            font-family: Arial, sans-serif;
+            font-size: 10px;
+            font-style: italic;
+        }
+        .chart-title {
+            fill: #000000;
+            font-family: Arial, sans-serif;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+
+    <!-- Main Chart Container -->
+    <g kr:node="Main_Chart">
+        
+        <!-- Chart Title and Info -->
+        <g kr:node="Chart_Info">
+            <text x="400" y="30" text-anchor="middle" class="chart-title">Historical Subject - SI - South Indian Vedic Chart</text>
+            <text x="50" y="60" class="sign-text">Born: 2/10/1920</text>
+            <text x="50" y="75" class="sign-text">Time: 08:00</text>
+            <text x="50" y="90" class="sign-text">Place: London</text>
+            <text x="50" y="105" class="sign-text">Timezone: Europe/London</text>
+        </g>
+
+        <!-- South Indian Chart Grid (Traditional Layout) -->
+        <g kr:node="South_Indian_Grid" transform="translate(200, 100)">
+            
+            <!-- Chart Border -->
+            <rect x="0" y="0" width="300" height="300" 
+                  fill="none" stroke="#000000" stroke-width="2"/>
+            
+            <!-- Grid Lines - creating the traditional layout -->
+            <!-- Vertical lines -->
+            <line x1="75" y1="0" x2="75" y2="75" stroke="#000000" stroke-width="1"/>
+            <line x1="150" y1="0" x2="150" y2="75" stroke="#000000" stroke-width="1"/>
+            <line x1="225" y1="0" x2="225" y2="75" stroke="#000000" stroke-width="1"/>
+            <line x1="75" y1="225" x2="75" y2="300" stroke="#000000" stroke-width="1"/>
+            <line x1="150" y1="225" x2="150" y2="300" stroke="#000000" stroke-width="1"/>
+            <line x1="225" y1="225" x2="225" y2="300" stroke="#000000" stroke-width="1"/>
+            
+            <!-- Horizontal lines -->
+            <line x1="0" y1="75" x2="75" y2="75" stroke="#000000" stroke-width="1"/>
+            <line x1="225" y1="75" x2="300" y2="75" stroke="#000000" stroke-width="1"/>
+            <line x1="0" y1="150" x2="75" y2="150" stroke="#000000" stroke-width="1"/>
+            <line x1="225" y1="150" x2="300" y2="150" stroke="#000000" stroke-width="1"/>
+            <line x1="0" y1="225" x2="300" y2="225" stroke="#000000" stroke-width="1"/>
+            <line x1="75" y1="75" x2="225" y2="75" stroke="#000000" stroke-width="1"/>
+            <line x1="75" y1="150" x2="225" y2="150" stroke="#000000" stroke-width="1"/>
+
+            <!-- Top Row: Houses 4, 5, 6, 7 -->
+            <!-- House 4 (Top Left) -->
+            <g kr:node="House_4">
+                <rect x="0" y="0" width="75" height="75" class="house-box"/>
+                <text x="37.5" y="20" text-anchor="middle" class="house-number">4</text>
+                <text x="37.5" y="40" text-anchor="middle" class="planet-text"></text>
+                <text x="37.5" y="60" text-anchor="middle" class="sign-text"></text>
+            </g>
+
+            <!-- House 5 (Top Center Left) -->
+            <g kr:node="House_5">
+                <rect x="75" y="0" width="75" height="75" class="house-box"/>
+                <text x="112.5" y="20" text-anchor="middle" class="house-number">5</text>
+                <text x="112.5" y="40" text-anchor="middle" class="planet-text"></text>
+                <text x="112.5" y="60" text-anchor="middle" class="sign-text"></text>
+            </g>
+
+            <!-- House 6 (Top Center Right) -->
+            <g kr:node="House_6">
+                <rect x="150" y="0" width="75" height="75" class="house-box"/>
+                <text x="187.5" y="20" text-anchor="middle" class="house-number">6</text>
+                <text x="187.5" y="40" text-anchor="middle" class="planet-text"></text>
+                <text x="187.5" y="60" text-anchor="middle" class="sign-text"></text>
+            </g>
+
+            <!-- House 7 (Top Right) -->
+            <g kr:node="House_7">
+                <rect x="225" y="0" width="75" height="75" class="house-box"/>
+                <text x="262.5" y="20" text-anchor="middle" class="house-number">7</text>
+                <text x="262.5" y="40" text-anchor="middle" class="planet-text"></text>
+                <text x="262.5" y="60" text-anchor="middle" class="sign-text"></text>
+            </g>
+
+            <!-- Second Row: House 3, Center, House 8 -->
+            <!-- House 3 (Middle Left) -->
+            <g kr:node="House_3">
+                <rect x="0" y="75" width="75" height="75" class="house-box"/>
+                <text x="37.5" y="95" text-anchor="middle" class="house-number">3</text>
+                <text x="37.5" y="115" text-anchor="middle" class="planet-text">Ma</text>
+                <text x="37.5" y="135" text-anchor="middle" class="sign-text">Sag</text>
+            </g>
+
+            <!-- House 8 (Middle Right) -->
+            <g kr:node="House_8">
+                <rect x="225" y="75" width="75" height="75" class="house-box"/>
+                <text x="262.5" y="95" text-anchor="middle" class="house-number">8</text>
+                <text x="262.5" y="115" text-anchor="middle" class="planet-text">Mo</text>
+                <text x="262.5" y="135" text-anchor="middle" class="sign-text">Gem</text>
+            </g>
+
+            <!-- Third Row: House 2, Center, House 9 -->
+            <!-- House 2 (Lower Middle Left) -->
+            <g kr:node="House_2">
+                <rect x="0" y="150" width="75" height="75" class="house-box"/>
+                <text x="37.5" y="170" text-anchor="middle" class="house-number">2</text>
+                <text x="37.5" y="190" text-anchor="middle" class="planet-text"></text>
+                <text x="37.5" y="210" text-anchor="middle" class="sign-text"></text>
+            </g>
+
+            <!-- House 9 (Lower Middle Right) -->
+            <g kr:node="House_9">
+                <rect x="225" y="150" width="75" height="75" class="house-box"/>
+                <text x="262.5" y="170" text-anchor="middle" class="house-number">9</text>
+                <text x="262.5" y="190" text-anchor="middle" class="planet-text"></text>
+                <text x="262.5" y="210" text-anchor="middle" class="sign-text"></text>
+            </g>
+
+            <!-- Bottom Row: Houses 1, 12, 11, 10 -->
+            <!-- House 1 (Bottom Left) -->
+            <g kr:node="House_1">
+                <rect x="0" y="225" width="75" height="75" class="house-box"/>
+                <text x="37.5" y="245" text-anchor="middle" class="house-number">1</text>
+                <text x="37.5" y="265" text-anchor="middle" class="planet-text">Me, Ve</text>
+                <text x="37.5" y="285" text-anchor="middle" class="sign-text">Lib</text>
+            </g>
+
+            <!-- House 12 (Bottom Center Left) -->
+            <g kr:node="House_12">
+                <rect x="75" y="225" width="75" height="75" class="house-box"/>
+                <text x="112.5" y="245" text-anchor="middle" class="house-number">12</text>
+                <text x="112.5" y="265" text-anchor="middle" class="planet-text">Su</text>
+                <text x="112.5" y="285" text-anchor="middle" class="sign-text">Lib</text>
+            </g>
+
+            <!-- House 11 (Bottom Center Right) -->
+            <g kr:node="House_11">
+                <rect x="150" y="225" width="75" height="75" class="house-box"/>
+                <text x="187.5" y="245" text-anchor="middle" class="house-number">11</text>
+                <text x="187.5" y="265" text-anchor="middle" class="planet-text">Ju, Sa</text>
+                <text x="187.5" y="285" text-anchor="middle" class="sign-text">Vir</text>
+            </g>
+
+            <!-- House 10 (Bottom Right) -->
+            <g kr:node="House_10">
+                <rect x="225" y="225" width="75" height="75" class="house-box"/>
+                <text x="262.5" y="245" text-anchor="middle" class="house-number">10</text>
+                <text x="262.5" y="265" text-anchor="middle" class="planet-text"></text>
+                <text x="262.5" y="285" text-anchor="middle" class="sign-text"></text>
+            </g>
+
+            <!-- Center Area for Chart Title and Info -->
+            <g kr:node="Center">
+                <rect x="75" y="75" width="150" height="150" class="house-box" fill="#FFFFFF" stroke="none"/>
+                <text x="150" y="100" text-anchor="middle" class="chart-title" font-size="16" font-weight="bold">Rashi</text>
+                <text x="150" y="120" text-anchor="middle" class="sign-text" font-size="10">Historical Subject - SI - South Indian Vedic Chart</text>
+                <text x="150" y="140" text-anchor="middle" class="sign-text" font-size="10">02-10-1920</text>
+                <text x="150" y="160" text-anchor="middle" class="sign-text" font-size="10">08:00</text>
+                <text x="150" y="180" text-anchor="middle" class="sign-text" font-size="10">None</text>
+                <text x="150" y="200" text-anchor="middle" class="sign-text" font-size="10">Tropic</text>
+            </g>
+
+        </g>
+
+        <!-- Chart Information Panel -->
+        <g kr:node="Chart_Info_Panel">
+            <!-- Left Panel -->
+            <text x="50" y="150" class="sign-text">Chart Type: South Indian Vedic</text>
+            <text x="50" y="170" class="sign-text">Ayanamsa: None</text>
+            <text x="50" y="190" class="sign-text">Longitude: 0°7'40" W</text>
+            <text x="50" y="210" class="sign-text">Latitude: 51°30'27" N</text>
+            <text x="50" y="230" class="sign-text">Generated: 2025-06-30 23:08</text>
+            
+            <!-- Right Panel -->
+            <text x="650" y="150" class="sign-text">Houses System: Placidus</text>
+            <text x="650" y="170" class="sign-text">Zodiac: Tropic</text>
+            <text x="650" y="190" class="sign-text">Latitude: 51.5074°</text>
+            <text x="650" y="210" class="sign-text">Longitude: -0.1278°</text>
+        </g>
+
+        <!-- Planet Legend -->
+        <g kr:node="Planet_Legend" transform="translate(50, 350)">
+            <text x="0" y="0" class="house-number">Planet Symbols:</text>
+            <text x="0" y="20" class="sign-text">Su=Sun, Mo=Moon, Me=Mercury, Ve=Venus</text>
+            <text x="0" y="35" class="sign-text">Ma=Mars, Ju=Jupiter, Sa=Saturn</text>
+            <text x="0" y="50" class="sign-text">Ra=Rahu, Ke=Ketu</text>
+        </g>
+
+        <!-- House Legend -->
+        <g kr:node="House_Legend" transform="translate(650, 350)">
+            <text x="0" y="0" class="house-number">House Meanings:</text>
+            <text x="0" y="20" class="sign-text">1=Self, 2=Wealth, 3=Siblings, 4=Home</text>
+            <text x="0" y="35" class="sign-text">5=Children, 6=Enemies, 7=Spouse, 8=Death</text>
+            <text x="0" y="50" class="sign-text">9=Fortune, 10=Career, 11=Gains, 12=Loss</text>
+        </g>
+
+    </g>
+</svg>

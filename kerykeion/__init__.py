@@ -8,6 +8,7 @@ This is part of Kerykeion (C) 2025 Giacomo Battaglia
 # Local
 from .astrological_subject import AstrologicalSubject
 from .charts.kerykeion_chart_svg import KerykeionChartSVG
+from .charts.south_indian_chart_svg import SouthIndianChartSVG
 from .kr_types import *
 from .relationship_score.relationship_score import RelationshipScore
 from .relationship_score.relationship_score_factory import RelationshipScoreFactory
