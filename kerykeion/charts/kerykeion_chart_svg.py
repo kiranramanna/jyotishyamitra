@@ -871,6 +871,33 @@ class KerykeionChartSVG:
 
         print(f"SVG Generated Correctly in: {chartname}")
 
+    @staticmethod
+    def from_jyotishyamitra(birthdata=None, chart_type="Natal", second_birthdata=None, **kwargs):
+        """
+        Creates a KerykeionChartSVG from jyotishyamitra data
+        
+        Args:
+            birthdata: Jyotishyamitra birthdata dictionary
+            chart_type: Type of chart to generate
+            second_birthdata: Secondary birthdata for synastry/transit charts
+            **kwargs: If birthdata is not provided, these are passed to JyotishyamitraAdapter
+            
+        Returns:
+            KerykeionChartSVG instance
+        """
+        from kerykeion.jyotishyamitra_adapter import JyotishyamitraAdapter
+        
+        # Create primary subject
+        first_subject = JyotishyamitraAdapter.create_astrological_subject(birthdata, **kwargs)
+        
+        # Create secondary subject if provided
+        second_subject = None
+        if second_birthdata:
+            second_subject = JyotishyamitraAdapter.create_astrological_subject(second_birthdata)
+        
+        # Create and return chart
+        return KerykeionChartSVG(first_subject, chart_type, second_subject)
+
     def makeWheelOnlyTemplate(self, minify: bool = False, remove_css_variables = False):
         """
         Render the wheel-only chart SVG as a string.

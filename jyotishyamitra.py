@@ -59,7 +59,7 @@ def isfloat(num):
 ################ Functions related to input ##########################
 ######################################################################
 
-def input_birthdata(name = "", gender = "", place = "", longitude = "", lattitude = "", timezone = "", year = "", month = "", day = "", hour = "", min = "", sec="0"):
+def input_birthdata(name = "", gender = "", place = "", longitude = "", lattitude = "", timezone = "", year = "", month = "", day = "", hour = "", min = "", sec="0", online=False):
     global is_InputBirthdata_Validated
 
     if (name != ""):
@@ -185,8 +185,8 @@ def validate_birthdata():
     l_tz = isfloat(l_tzstr) 
     if (l_tz == False):
       return ("Timezone field must be a number (+ve or -ve with or without decimal point)")
-    if (((l_tz%0.5)==0) == False):
-      return ("Timezone field must be in hour format with steps of 30 min (30 min would be 0.5 hours)")
+    # if (((l_tz%0.5)==0) == False):
+    #   return ("Timezone field must be in hour format with steps of 30 min (30 min would be 0.5 hours)")
     #check for Gender -> must be a non empty string
     l_gender = birthdatastr["Gender"]
     if (len(l_gender.strip()) == 0):
@@ -259,7 +259,7 @@ def set_output(path, filename = "astrodata"):
    return(f'''Error: The given path parameter{path} is not a valid path innthis system.''')
   
   outputfilename = filename
-  outputfilenamefull = f'''{outputpath}\{outputfilename}.json'''
+  outputfilenamefull = f'''{outputpath}/{outputfilename}.json'''
   is_OutputPathSet = True
   return("SUCCESS")
     
@@ -334,11 +334,108 @@ def generate_astrologicalData(birthdata, returnval = "JSON_FILE_LOCATION"):
   else:
      return("Invalid parameter returnval")
 
+
+######################################################################
+################ Functions for Kerykeion Integration #################
+######################################################################
+
+def generate_kerykeion_chart(chart_type="Natal"):
+  """
+  Generate a Kerykeion chart using the current birthdata
   
+  Args:
+      chart_type (str): Type of chart to generate (Natal, Transit, etc.)
+      
+  Returns:
+      str: Path to the generated chart SVG file or error message
+  """
+  if not is_InputBirthdata_Validated:
+    return "Error: Birth data not validated. Please call validate_birthdata() first."
+  
+  try:
+    # Import required Kerykeion modules
+    from kerykeion.astrological_subject import AstrologicalSubject
+    from kerykeion.charts.kerykeion_chart_svg import KerykeionChartSVG
+    
+    # Get validated birth data
+    data = get_birthdata()
+    
+    if not data:
+      return "Error: No valid birth data available."
+    
+    # Extract data
+    name = data["name"]
+    year = int(data["DOB"]["year"])
+    month = int(data["DOB"]["month"])
+    day = int(data["DOB"]["day"])
+    hour = int(data["TOB"]["hour"])
+    minute = int(data["TOB"]["min"])
+    city = data["POB"]["name"]
+    lng = float(data["POB"]["lon"])
+    lat = float(data["POB"]["lat"])
+    tz_str = data["POB"]["timezone"]
+    
+    # Create AstrologicalSubject
+    subject = AstrologicalSubject(
+      name=name,
+      year=year,
+      month=month,
+      day=day,
+      hour=hour,
+      minute=minute,
+      city=city,
+      lng=lng,
+      lat=lat,
+      tz_str=tz_str,
+      online=False  # We already have coordinates and timezone
+    )
+    
+    # Create chart
+    chart = KerykeionChartSVG(subject, chart_type)
+    
+    # Generate SVG
+    chart.makeSVG()
+    
+    # Return path to generated file
+    import os
+    from pathlib import Path
+    chart_path = os.path.join(str(Path.home()), f"{name} - {chart_type} Chart.svg")
+    return f"Chart generated successfully: {chart_path}"
+    
+  except Exception as e:
+    import traceback
+    error_msg = f"Error generating chart: {str(e)}\n{traceback.format_exc()}"
+    return error_msg
 
 
 if __name__ == "__main__":
   print("START")
   print(reset_astrologicalData())
-  generate_astrologicalData()
+  
+  # Example: Generate chart for a person
+  input_birthdata(
+    name="John Doe",
+    gender="Male",
+    place="New York",
+    longitude="-74.0060",
+    lattitude="40.7128",
+    timezone="-5",
+    year="1980",
+    month="6",
+    day="15",
+    hour="10",
+    min="30"
+  )
+  
+  validation_result = validate_birthdata()
+  print(f"Validation result: {validation_result}")
+  
+  if validation_result == "SUCCESS":
+    # Generate astrological data
+    generate_astrologicalData(get_birthdata(), "ASTRODATA_DICTIONARY")
+    
+    # Generate Kerykeion chart
+    chart_result = generate_kerykeion_chart()
+    print(chart_result)
+  
   print("END")
