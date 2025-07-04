@@ -1,0 +1,272 @@
+{
+  "D1": {
+    "planets": {
+      "Sun": {
+        "name": "Sun",
+        "symbol": "Su",
+        "retro": 0,
+        "pos": {
+          "deg": 15,
+          "min": 30,
+          "sec": 0,
+          "dec_deg": 15.5
+        },
+        "nakshatra": "Pushya",
+        "sign": "Cancer",
+        "rashi": "Karka"
+      },
+      "Moon": {
+        "name": "Moon",
+        "symbol": "Mo",
+        "retro": 0,
+        "pos": {
+          "deg": 10,
+          "min": 20,
+          "sec": 0,
+          "dec_deg": 10.33
+        },
+        "nakshatra": "Ardra",
+        "sign": "Gemini",
+        "rashi": "Mithuna"
+      },
+      "Mars": {
+        "name": "Mars",
+        "symbol": "Ma",
+        "retro": 0,
+        "pos": {
+          "deg": 5,
+          "min": 10,
+          "sec": 0,
+          "dec_deg": 5.17
+        },
+        "nakshatra": "Bharani",
+        "sign": "Aries",
+        "rashi": "Mesha"
+      },
+      "Mercury": {
+        "name": "Mercury",
+        "symbol": "Me",
+        "retro": 0,
+        "pos": {
+          "deg": 20,
+          "min": 15,
+          "sec": 0,
+          "dec_deg": 20.25
+        },
+        "nakshatra": "Pushya",
+        "sign": "Cancer",
+        "rashi": "Karka"
+      },
+      "Jupiter": {
+        "name": "Jupiter",
+        "symbol": "Ju",
+        "retro": 0,
+        "pos": {
+          "deg": 25,
+          "min": 45,
+          "sec": 0,
+          "dec_deg": 25.75
+        },
+        "nakshatra": "Purva Phalguni",
+        "sign": "Leo",
+        "rashi": "Simha"
+      },
+      "Venus": {
+        "name": "Venus",
+        "symbol": "Ve",
+        "retro": 0,
+        "pos": {
+          "deg": 18,
+          "min": 30,
+          "sec": 0,
+          "dec_deg": 18.5
+        },
+        "nakshatra": "Swati",
+        "sign": "Libra",
+        "rashi": "Tula"
+      },
+      "Saturn": {
+        "name": "Saturn",
+        "symbol": "Sa",
+        "retro": 1,
+        "pos": {
+          "deg": 12,
+          "min": 20,
+          "sec": 0,
+          "dec_deg": 12.33
+        },
+        "nakshatra": "Shravana",
+        "sign": "Capricorn",
+        "rashi": "Makara"
+      },
+      "Rahu": {
+        "name": "Rahu",
+        "symbol": "Ra",
+        "retro": 1,
+        "pos": {
+          "deg": 8,
+          "min": 15,
+          "sec": 0,
+          "dec_deg": 8.25
+        },
+        "nakshatra": "Ardra",
+        "sign": "Gemini",
+        "rashi": "Mithuna"
+      },
+      "Ketu": {
+        "name": "Ketu",
+        "symbol": "Ke",
+        "retro": 1,
+        "pos": {
+          "deg": 8,
+          "min": 15,
+          "sec": 0,
+          "dec_deg": 8.25
+        },
+        "nakshatra": "Mula",
+        "sign": "Sagittarius",
+        "rashi": "Dhanu"
+      }
+    },
+    "ascendant": {
+      "name": "Ascendant",
+      "symbol": "Asc",
+      "pos": {
+        "deg": 5,
+        "min": 10,
+        "sec": 0,
+        "dec_deg": 5.17
+      },
+      "nakshatra": "Ashwini",
+      "sign": "Aries",
+      "rashi": "Mesha"
+    },
+    "classifications": {
+      "benefics": [
+        "Jupiter",
+        "Venus",
+        "Moon"
+      ],
+      "malefics": [
+        "Sun",
+        "Mars",
+        "Saturn",
+        "Rahu",
+        "Ketu"
+      ],
+      "neutral": [
+        "Mercury"
+      ],
+      "kendra": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "trikona": [
+        1,
+        5,
+        9
+      ],
+      "trik": [
+        6,
+        8,
+        12
+      ],
+      "upachaya": [
+        3,
+        6,
+        10,
+        11
+      ]
+    },
+    "houses": [],
+    "Balas": {
+      "Shadbala": {
+        "Sthanbala": {
+          "Sun": 30,
+          "Moon": 25
+        },
+        "Digbala": {
+          "Sun": 15,
+          "Moon": 20
+        },
+        "Kaalabala": {
+          "Sun": 20,
+          "Moon": 15
+        },
+        "Cheshtabala": {
+          "Sun": 10,
+          "Moon": 5
+        },
+        "Naisargikabala": {
+          "Sun": 60,
+          "Moon": 51.4
+        },
+        "Drikbala": {
+          "Sun": 5,
+          "Moon": 10
+        }
+      },
+      "Ishtabala": {
+        "Sun": 45,
+        "Moon": 50
+      },
+      "Kashtabala": {
+        "Sun": 10,
+        "Moon": 15
+      },
+      "BhavaBala": {
+        "Total": [
+          30,
+          25,
+          20,
+          15,
+          10,
+          5,
+          30,
+          25,
+          20,
+          15,
+          10,
+          5
+        ]
+      }
+    },
+    "AshtakaVarga": {},
+    "Dashas": {
+      "Vimshottari": {
+        "mahadashas": {},
+        "antardashas": {},
+        "paryantardashas": {},
+        "current": {
+          "date": "2025-07-01",
+          "dasha": "Venus",
+          "bhukti": "Sun",
+          "paryantardasha": "Moon"
+        }
+      }
+    },
+    "user_details": {
+      "name": "Test Person",
+      "birthdetails": {
+        "DOB": {
+          "year": 1990,
+          "month": 1,
+          "day": 1
+        },
+        "TOB": {
+          "hour": 12,
+          "min": 0,
+          "sec": 0
+        },
+        "POB": {
+          "name": "New Delhi",
+          "lat": 28.7041,
+          "lon": 77.1025,
+          "timezone": 5.5
+        }
+      }
+    }
+  }
+}

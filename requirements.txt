@@ -34,6 +34,8 @@ pyswisseph==2.10.3.2
     # via -r requirements.in
 pytest==8.4.1
     # via -r requirements.in
+python-dateutil==2.9.0.post0
+    # via -r requirements.in
 pytz==2025.2
     # via -r requirements.in
 requests==2.32.4
@@ -47,7 +49,9 @@ scour==0.38.2
 simple-ascii-tables==1.0.1
     # via -r requirements.in
 six==1.17.0
-    # via scour
+    # via
+    #   python-dateutil
+    #   scour
 typing-extensions==4.14.0
     # via
     #   -r requirements.in

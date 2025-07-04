@@ -8,6 +8,7 @@ requests>=2.32.3
 simple-ascii-tables>=1.0.0
 pytz>=2024.2
 typing-extensions>=4.12.2
+python-dateutil>=2.8.2
 
 # Testing dependencies
 pytest>=7.2.0

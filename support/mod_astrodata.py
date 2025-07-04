@@ -26,6 +26,12 @@ lagna_sun = {"name"         : "Sun",
              "symbol"       : "Su",
              "retro"        : 0,    #initialized retro as 0
              "pos"          : {"deg" : 0, "min" : 0, "sec" : 0, "dec_deg": 0.0}, #initioalized to zero
+             "longitude"    : 0.0,  #longitude in degrees
+             "lon_speed"    : 0.0,  #longitude speed in degrees/day
+             "latitude"     : 0.0,  #latitude in degrees
+             "lat_speed"    : 0.0,  #latitude speed in degrees/day
+             "distance"     : 0.0,  #distance in AU
+             "dist_speed"   : 0.0,  #distance speed in AU/day
              "nakshatra"    : "Ashwini" ,
              "pada"         : 1,
              "nak-ruler"    : "Ketu",
@@ -56,6 +62,12 @@ lagna_moon = {"name"         : "Moon",
              "symbol"       : "Mo",
              "retro"        : 0,    #initialized retro as 0
              "pos"          : {"deg" : 0, "min" : 0, "sec" : 0, "dec_deg": 0.0}, #initioalized to zero
+             "longitude"    : 0.0,  #longitude in degrees
+             "lon_speed"    : 0.0,  #longitude speed in degrees/day
+             "latitude"     : 0.0,  #latitude in degrees
+             "lat_speed"    : 0.0,  #latitude speed in degrees/day
+             "distance"     : 0.0,  #distance in AU
+             "dist_speed"   : 0.0,  #distance speed in AU/day
              "nakshatra"    : "Ashwini" ,
              "pada"         : 1,
              "nak-ruler"    : "Ketu",
@@ -86,6 +98,12 @@ lagna_mars = {"name"        : "Mars",
              "symbol"       : "Ma",
              "retro"        : 0,    #initialized retro as 0
              "pos"          : {"deg" : 0, "min" : 0, "sec" : 0, "dec_deg": 0.0}, #initioalized to zero
+             "longitude"    : 0.0,  #longitude in degrees
+             "lon_speed"    : 0.0,  #longitude speed in degrees/day
+             "latitude"     : 0.0,  #latitude in degrees
+             "lat_speed"    : 0.0,  #latitude speed in degrees/day
+             "distance"     : 0.0,  #distance in AU
+             "dist_speed"   : 0.0,  #distance speed in AU/day
              "nakshatra"    : "Ashwini" ,
              "pada"         : 1,
              "nak-ruler"    : "Ketu",
@@ -116,6 +134,12 @@ lagna_mercury = {"name"     : "Mercury",
              "symbol"       : "Me",
              "retro"        : 0,    #initialized retro as 0
              "pos"          : {"deg" : 0, "min" : 0, "sec" : 0, "dec_deg": 0.0}, #initioalized to zero
+             "longitude"    : 0.0,  #longitude in degrees
+             "lon_speed"    : 0.0,  #longitude speed in degrees/day
+             "latitude"     : 0.0,  #latitude in degrees
+             "lat_speed"    : 0.0,  #latitude speed in degrees/day
+             "distance"     : 0.0,  #distance in AU
+             "dist_speed"   : 0.0,  #distance speed in AU/day
              "nakshatra"    : "Ashwini" ,
              "pada"         : 1,
              "nak-ruler"    : "Ketu",
@@ -146,6 +170,12 @@ lagna_jupiter = {"name"     : "Jupiter",
              "symbol"       : "Ju",
              "retro"        : 0,    #initialized retro as 0
              "pos"          : {"deg" : 0, "min" : 0, "sec" : 0, "dec_deg": 0.0}, #initioalized to zero
+             "longitude"    : 0.0,  #longitude in degrees
+             "lon_speed"    : 0.0,  #longitude speed in degrees/day
+             "latitude"     : 0.0,  #latitude in degrees
+             "lat_speed"    : 0.0,  #latitude speed in degrees/day
+             "distance"     : 0.0,  #distance in AU
+             "dist_speed"   : 0.0,  #distance speed in AU/day
              "nakshatra"    : "Ashwini" ,
              "pada"         : 1,
              "nak-ruler"    : "Ketu",
@@ -176,6 +206,12 @@ lagna_venus = {"name"       : "Venus",
              "symbol"       : "Ve",
              "retro"        : 0,    #initialized retro as 0
              "pos"          : {"deg" : 0, "min" : 0, "sec" : 0, "dec_deg": 0.0}, #initioalized to zero
+             "longitude"    : 0.0,  #longitude in degrees
+             "lon_speed"    : 0.0,  #longitude speed in degrees/day
+             "latitude"     : 0.0,  #latitude in degrees
+             "lat_speed"    : 0.0,  #latitude speed in degrees/day
+             "distance"     : 0.0,  #distance in AU
+             "dist_speed"   : 0.0,  #distance speed in AU/day
              "nakshatra"    : "Ashwini" ,
              "pada"         : 1,
              "nak-ruler"    : "Ketu",
@@ -206,6 +242,12 @@ lagna_saturn = {"name"      : "Saturn",
              "symbol"       : "Sa",
              "retro"        : 0,    #initialized retro as 0
              "pos"          : {"deg" : 0, "min" : 0, "sec" : 0, "dec_deg": 0.0}, #initioalized to zero
+             "longitude"    : 0.0,  #longitude in degrees
+             "lon_speed"    : 0.0,  #longitude speed in degrees/day
+             "latitude"     : 0.0,  #latitude in degrees
+             "lat_speed"    : 0.0,  #latitude speed in degrees/day
+             "distance"     : 0.0,  #distance in AU
+             "dist_speed"   : 0.0,  #distance speed in AU/day
              "nakshatra"    : "Ashwini" ,
              "pada"         : 1,
              "nak-ruler"    : "Ketu",
@@ -236,6 +278,12 @@ lagna_rahu = {"name"        : "Rahu",
              "symbol"       : "Ra",
              "retro"        : 1,    #initialized retro as 1
              "pos"          : {"deg" : 0, "min" : 0, "sec" : 0, "dec_deg": 0.0}, #initioalized to zero
+             "longitude"    : 0.0,  #longitude in degrees
+             "lon_speed"    : 0.0,  #longitude speed in degrees/day
+             "latitude"     : 0.0,  #latitude in degrees
+             "lat_speed"    : 0.0,  #latitude speed in degrees/day
+             "distance"     : 0.0,  #distance in AU
+             "dist_speed"   : 0.0,  #distance speed in AU/day
              "nakshatra"    : "Ashwini" ,
              "pada"         : 1,
              "nak-ruler"    : "Ketu",
@@ -266,6 +314,12 @@ lagna_ketu = {"name"        : "Ketu",
              "symbol"       : "Ke",
              "retro"        : 1,    #initialized retro as 1
              "pos"          : {"deg" : 0, "min" : 0, "sec" : 0, "dec_deg": 0.0}, #initioalized to zero
+             "longitude"    : 0.0,  #longitude in degrees
+             "lon_speed"    : 0.0,  #longitude speed in degrees/day
+             "latitude"     : 0.0,  #latitude in degrees
+             "lat_speed"    : 0.0,  #latitude speed in degrees/day
+             "distance"     : 0.0,  #distance in AU
+             "dist_speed"   : 0.0,  #distance speed in AU/day
              "nakshatra"    : "Ashwini" ,
              "pada"         : 1,
              "nak-ruler"    : "Ketu",

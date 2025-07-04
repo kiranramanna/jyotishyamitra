@@ -119,14 +119,31 @@ def nakshatra_pada(longitude):
 def sidereal_longitude(jd, planet):
   """Computes nirayana (sidereal) longitude of given planet on jd"""
   set_ayanamsa_mode()
-  (longi,myflags) = swe.calc_ut(jd, planet, flag = swe.FLG_SWIEPH | swe.FLG_SIDEREAL)
+  (longi,myflags) = swe.calc_ut(jd, planet, flags = swe.FLG_SWIEPH | swe.FLG_SIDEREAL)
   reset_ayanamsa_mode()
   return norm360(longi[0]) # degrees
+
+def sidereal_planetary_data(jd, planet):
+  """Computes full nirayana (sidereal) planetary data for given planet on jd
+     Returns: longitude, latitude, distance, lon_speed, lat_speed, dist_speed, retrograde"""
+  set_ayanamsa_mode()
+  (longi,myflags) = swe.calc_ut(jd, planet, flags = swe.FLG_SWIEPH | swe.FLG_SIDEREAL | swe.FLG_SPEED)
+  reset_ayanamsa_mode()
+  
+  longitude = norm360(longi[0])  # degrees
+  latitude = longi[1]           # degrees
+  distance = longi[2]           # AU
+  lon_speed = longi[3]          # degrees/day
+  lat_speed = longi[4]          # degrees/day
+  dist_speed = longi[5]         # AU/day
+  retrograde = (lon_speed < 0)  # if speed is negative then its in retro
+  
+  return longitude, latitude, distance, lon_speed, lat_speed, dist_speed, retrograde
 
 def Is_Retrograde(jd, planet):
   """Checks if given planet is in retrograde motion on jd"""
   set_ayanamsa_mode()
-  (longi,myflags) = swe.calc_ut(jd, planet, flag = swe.FLG_SWIEPH | swe.FLG_SPEED | swe.FLG_SIDEREAL)
+  (longi,myflags) = swe.calc_ut(jd, planet, flags = swe.FLG_SWIEPH | swe.FLG_SPEED | swe.FLG_SIDEREAL)
   reset_ayanamsa_mode()
   return (longi[3] < 0) # if speed is negative then its in retro
 
@@ -141,7 +158,7 @@ def update_ascendant(jd, place):
   jd_utc = jd - (tz / 24.)
   set_ayanamsa_mode() # needed for swe.houses_ex()
   # returns two arrays, cusps and ascmc, where ascmc[0] = Ascendant
-  nirayana_lagna = swe.houses_ex(jd_utc, lat, lon, flag = swe.FLG_SIDEREAL)[1][0]
+  nirayana_lagna = swe.houses_ex(jd_utc, lat, lon, flags = swe.FLG_SIDEREAL)[1][0]
   # 12 zodiac signs span 360°, so each one takes 30°
   # 0 = Mesha, 1 = Vrishabha, ..., 11 = Meena
   constellation = int(nirayana_lagna / 30)
@@ -153,6 +170,7 @@ def update_ascendant(jd, place):
   data.lagna_ascendant["pos"]["min"] = coordinates[1]
   data.lagna_ascendant["pos"]["sec"] = coordinates[2]
   data.lagna_ascendant["pos"]["dec_deg"] = (nirayana_lagna % 30)
+  data.lagna_ascendant["nirayana_long"] = nirayana_lagna
 
   #update nakshatra related data for ascendant
   nak_pad = nakshatra_pada(nirayana_lagna)
@@ -182,12 +200,19 @@ def update_planetaryData(jd, place):
 
   for planet in planet_list:
     if planet != swe.KETU:
-      nirayana_long = sidereal_longitude(jd_ut, planet)
-      retro = Is_Retrograde(jd_ut, planet)
+      longitude, latitude, distance, lon_speed, lat_speed, dist_speed, retro = sidereal_planetary_data(jd_ut, planet)
+      nirayana_long = longitude
     else: # Ketu
-      #nirayana_long = ketu(sidereal_longitude(jd_ut, swe.RAHU))
-      nirayana_long = ketu(sidereal_longitude(jd_ut, swe.MEAN_NODE))
+      # For Ketu, get Rahu data first and then compute Ketu position
+      rahu_longitude, rahu_latitude, rahu_distance, rahu_lon_speed, rahu_lat_speed, rahu_dist_speed, _ = sidereal_planetary_data(jd_ut, swe.MEAN_NODE)
+      longitude = ketu(rahu_longitude)
+      latitude = -rahu_latitude  # Ketu's latitude is opposite to Rahu's
+      distance = rahu_distance
+      lon_speed = -rahu_lon_speed
+      lat_speed = -rahu_lat_speed
+      dist_speed = rahu_dist_speed
       retro = True  #ketu is always in retrograde
+      nirayana_long = longitude
 
     # 12 zodiac signs span 360°, so each one takes 30°
     # 0 = Mesha, 1 = Vrishabha, ..., 11 = Meena
@@ -203,6 +228,15 @@ def update_planetaryData(jd, place):
     db_planet["pos"]["min"] = coordinates[1]
     db_planet["pos"]["sec"] = coordinates[2]
     db_planet["pos"]["dec_deg"] = (nirayana_long % 30)
+    db_planet["nirayana_long"] = nirayana_long
+    
+    #update the new planetary data fields
+    db_planet["longitude"] = longitude
+    db_planet["lon_speed"] = lon_speed
+    db_planet["latitude"] = latitude
+    db_planet["lat_speed"] = lat_speed
+    db_planet["distance"] = distance
+    db_planet["dist_speed"] = dist_speed
 
     #update nakshatra related data for the planet
     nak_pad = nakshatra_pada(nirayana_long)

@@ -92,7 +92,7 @@ def function(point):
     # Place Revati at 0°0'0"
     #fval = norm180(swe.fixstar_ut("Revati", point, flag = swe.FLG_SWIEPH | swe.FLG_SIDEREAL)[0])
     # Place Citra at 180°
-    fval = swe.fixstar_ut("Citra", point, flag = swe.FLG_SWIEPH | swe.FLG_SIDEREAL)[0] - (180)
+    fval = swe.fixstar_ut("Citra", point, flags = swe.FLG_SWIEPH | swe.FLG_SIDEREAL)[0] - (180)
     # Place Pushya (delta Cancri) at 106°
     # fval = swe.fixstar_ut(",deCnc", point, flag = swe.FLG_SWIEPH | swe.FLG_SIDEREAL)[0] - (106)
     return fval
@@ -157,7 +157,7 @@ def nakshatra_pada(longitude):
 def sidereal_longitude(jd, planet):
   """Computes nirayana (sidereal) longitude of given planet on jd"""
   set_ayanamsa_mode()
-  longi, flags = swe.calc_ut(jd, planet, flag = swe.FLG_SWIEPH | swe.FLG_SIDEREAL)
+  longi, flags = swe.calc_ut(jd, planet, flags = swe.FLG_SWIEPH | swe.FLG_SIDEREAL)
   reset_ayanamsa_mode()
   return norm360(longi[0]) # degrees
 
@@ -167,7 +167,7 @@ lunar_longitude = lambda jd: sidereal_longitude(jd, swe.MOON)
 def sunrise(jd, place):
   """Sunrise when centre of disc is at horizon for given date and place"""
   lat, lon, tz = place
-  result = swe.rise_trans(jd - tz/24, swe.SUN, lon, lat, rsmi = _rise_flags + swe.CALC_RISE)
+  result = swe.rise_trans(jd - tz/24, swe.SUN, _rise_flags + swe.CALC_RISE, (lon, lat, 0))
   rise = result[1][0]  # julian-day number
   # Convert to local time
   return [rise + tz/24., to_dms((rise - jd) * 24 + tz)]
@@ -550,7 +550,7 @@ def ascendant(jd, place):
   set_ayanamsa_mode() # needed for swe.houses_ex()
 
   # returns two arrays, cusps and ascmc, where ascmc[0] = Ascendant
-  nirayana_lagna = swe.houses_ex(jd_utc, lat, lon, flag = swe.FLG_SIDEREAL)[1][0]
+  nirayana_lagna = swe.houses_ex(jd_utc, lat, lon, flags = swe.FLG_SIDEREAL)[1][0]
   # 12 zodiac signs span 360°, so each one takes 30°
   # 0 = Mesha, 1 = Vrishabha, ..., 11 = Meena
   constellation = int(nirayana_lagna / 30)
