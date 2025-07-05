@@ -1,0 +1,2973 @@
+{
+    "D1": {
+        "name": "Lagna",
+        "symbol": "D1",
+        "ascendant": {
+            "name": "Ascendant",
+            "symbol": "Asc",
+            "pos": {
+                "deg": 26,
+                "min": 12,
+                "sec": 27,
+                "dec_deg": 26.207686468617453
+            },
+            "nakshatra": "Purva Ashadha",
+            "pada": 4,
+            "nak-ruler": "Venus",
+            "nak-diety": "Apah",
+            "sign": "Saggitarius",
+            "rashi": "Dhanu",
+            "lagna-lord": "Jupiter",
+            "sign-tatva": "Fire/Agni",
+            "lagnesh-sign": "Libra",
+            "lagnesh-rashi": "Tula",
+            "lagnesh-disp": "Venus",
+            "status": 2,
+            "nirayana_long": 266.20768646861745
+        },
+        "planets": {
+            "Sun": {
+                "name": "Sun",
+                "symbol": "Su",
+                "retro": false,
+                "pos": {
+                    "deg": 29,
+                    "min": 25,
+                    "sec": 24,
+                    "dec_deg": 29.423608797063423
+                },
+                "longitude": 269.4236087970634,
+                "lon_speed": 1.018640357252794,
+                "latitude": -0.00018188665705139758,
+                "lat_speed": 1.7218134072074884e-05,
+                "distance": 0.9835450098882206,
+                "dist_speed": 6.0462567521022606e-05,
+                "nakshatra": "Uttara Ashadha",
+                "pada": 1,
+                "nak-ruler": "Sun",
+                "nak-diety": "Vishwe Devatas",
+                "sign": "Saggitarius",
+                "rashi": "Dhanu",
+                "dispositor": "Jupiter",
+                "tattva": "Fire/Agni",
+                "sign-tatva": "Fire/Agni",
+                "house-rel": "Friends sign / Mitra rashi",
+                "house-nature": "Dharma",
+                "planet-nature": "Krura graha",
+                "gender": "Male",
+                "category": "Deva",
+                "house-num": 1,
+                "friends": [
+                    "Moon",
+                    "Mars",
+                    "Jupiter"
+                ],
+                "enemies": [
+                    "Venus",
+                    "Saturn",
+                    "Rahu",
+                    "Ketu"
+                ],
+                "nuetral": [
+                    "Mercury"
+                ],
+                "varna": "Kshatriya",
+                "guna": "Sathvika",
+                "Aspects": {
+                    "planets": [],
+                    "houses": [
+                        7
+                    ],
+                    "signs": [
+                        "Gemini"
+                    ]
+                },
+                "Aspected-by": [],
+                "conjuncts": [],
+                "status": 2,
+                "nirayana_long": 269.4236087970634
+            },
+            "Moon": {
+                "name": "Moon",
+                "symbol": "Mo",
+                "retro": false,
+                "pos": {
+                    "deg": 17,
+                    "min": 27,
+                    "sec": 10,
+                    "dec_deg": 17.45278994803064
+                },
+                "longitude": 167.45278994803064,
+                "lon_speed": 13.116305290338259,
+                "latitude": -4.755939276146361,
+                "lat_speed": 0.4813940806672145,
+                "distance": 0.0025711120967040536,
+                "dist_speed": -3.335572176378326e-05,
+                "nakshatra": "Hasta",
+                "pada": 3,
+                "nak-ruler": "Moon",
+                "nak-diety": "Surya",
+                "sign": "Virgo",
+                "rashi": "Kanya",
+                "dispositor": "Mercury",
+                "tattva": "Water/Jala",
+                "sign-tatva": "Earth/Pruthvi",
+                "house-rel": "Friends sign / Mitra rashi",
+                "house-nature": "Dharma",
+                "planet-nature": "Soumya graha",
+                "gender": "Female",
+                "category": "Deva",
+                "house-num": 10,
+                "friends": [
+                    "Sun",
+                    "Mercury"
+                ],
+                "enemies": [],
+                "nuetral": [
+                    "Mars",
+                    "Venus",
+                    "Jupiter",
+                    "Saturn",
+                    "Rahu",
+                    "Ketu"
+                ],
+                "varna": "Vaishya",
+                "guna": "Sathvika",
+                "Aspects": {
+                    "planets": [],
+                    "houses": [
+                        4
+                    ],
+                    "signs": [
+                        "Pisces"
+                    ]
+                },
+                "Aspected-by": [
+                    "Ketu"
+                ],
+                "conjuncts": [
+                    "Saturn"
+                ],
+                "status": 2,
+                "nirayana_long": 167.45278994803064
+            },
+            "Mars": {
+                "name": "Mars",
+                "symbol": "Ma",
+                "retro": false,
+                "pos": {
+                    "deg": 6,
+                    "min": 19,
+                    "sec": 25,
+                    "dec_deg": 6.32368839459579
+                },
+                "longitude": 6.32368839459579,
+                "lon_speed": 0.5091824789209471,
+                "latitude": 0.9045553552008028,
+                "lat_speed": 0.015719065275138562,
+                "distance": 1.0491739875999835,
+                "dist_speed": 0.009443711679535536,
+                "nakshatra": "Ashwini",
+                "pada": 2,
+                "nak-ruler": "Ketu",
+                "nak-diety": "Ashwini kumaras",
+                "sign": "Aries",
+                "rashi": "Mesha",
+                "dispositor": "Mars",
+                "tattva": "Fire/Agni",
+                "sign-tatva": "Fire/Agni",
+                "house-rel": "Own sign / Swa rashi",
+                "house-nature": "Dharma",
+                "planet-nature": "Krura graha",
+                "gender": "Male",
+                "category": "Deva",
+                "house-num": 5,
+                "friends": [
+                    "Sun",
+                    "Moon",
+                    "Jupiter"
+                ],
+                "enemies": [
+                    "Mercury"
+                ],
+                "nuetral": [
+                    "Saturn",
+                    "Venus",
+                    "Rahu",
+                    "Ketu"
+                ],
+                "varna": "Kshatriya",
+                "guna": "Tamasika",
+                "Aspects": {
+                    "planets": [
+                        "Jupiter",
+                        "Rahu"
+                    ],
+                    "houses": [
+                        8,
+                        11,
+                        12
+                    ],
+                    "signs": [
+                        "Cancer",
+                        "Libra",
+                        "Scorpio"
+                    ]
+                },
+                "Aspected-by": [
+                    "Jupiter"
+                ],
+                "conjuncts": [],
+                "status": 2,
+                "nirayana_long": 6.32368839459579
+            },
+            "Mercury": {
+                "name": "Mercury",
+                "symbol": "Me",
+                "retro": false,
+                "pos": {
+                    "deg": 11,
+                    "min": 46,
+                    "sec": 24,
+                    "dec_deg": 11.773432892497794
+                },
+                "longitude": 281.7734328924978,
+                "lon_speed": 1.6513361362824606,
+                "latitude": -1.9554037688195478,
+                "lat_speed": 0.05757197638724253,
+                "distance": 1.277074490091997,
+                "dist_speed": -0.01610117596547618,
+                "nakshatra": "Shravana",
+                "pada": 1,
+                "nak-ruler": "Moon",
+                "nak-diety": "Vishnu",
+                "sign": "Capricorn",
+                "rashi": "Makara",
+                "dispositor": "Saturn",
+                "tattva": "Earth/Pruthvi",
+                "sign-tatva": "Earth/Pruthvi",
+                "house-rel": "Neutral sign / Sama rashi",
+                "house-nature": "Dharma",
+                "planet-nature": "Krura graha",
+                "gender": "Enuch",
+                "category": "Neutral",
+                "house-num": 2,
+                "friends": [
+                    "Sun",
+                    "Venus",
+                    "Rahu"
+                ],
+                "enemies": [
+                    "Moon",
+                    "Ketu"
+                ],
+                "nuetral": [
+                    "Saturn",
+                    "Mars",
+                    "Jupiter"
+                ],
+                "varna": "Shudra",
+                "guna": "Rajasika",
+                "Aspects": {
+                    "planets": [],
+                    "houses": [
+                        8
+                    ],
+                    "signs": [
+                        "Cancer"
+                    ]
+                },
+                "Aspected-by": [
+                    "Ketu"
+                ],
+                "conjuncts": [
+                    "Venus"
+                ],
+                "status": 2,
+                "nirayana_long": 281.7734328924978
+            },
+            "Jupiter": {
+                "name": "Jupiter",
+                "symbol": "Ju",
+                "retro": false,
+                "pos": {
+                    "deg": 4,
+                    "min": 0,
+                    "sec": 49,
+                    "dec_deg": 4.01384635539668
+                },
+                "longitude": 184.01384635539668,
+                "lon_speed": 0.08992760357908744,
+                "latitude": 1.305536939326405,
+                "lat_speed": 0.0036732203288687916,
+                "distance": 5.4442358096831756,
+                "dist_speed": -0.01614282620853345,
+                "nakshatra": "Chitra",
+                "pada": 4,
+                "nak-ruler": "Mars",
+                "nak-diety": "Vishwakarma",
+                "sign": "Libra",
+                "rashi": "Tula",
+                "dispositor": "Venus",
+                "tattva": "Fire/Agni",
+                "sign-tatva": "Air/Vaayu",
+                "house-rel": "Enemy sign / Shatru rashi",
+                "house-nature": "Dharma",
+                "planet-nature": "Soumya graha",
+                "gender": "Male",
+                "category": "Deva",
+                "house-num": 11,
+                "friends": [
+                    "Moon",
+                    "Mars",
+                    "Sun",
+                    "Ketu"
+                ],
+                "enemies": [
+                    "Venus",
+                    "Mercury",
+                    "Rahu"
+                ],
+                "nuetral": [
+                    "Saturn"
+                ],
+                "varna": "Brahmana",
+                "guna": "Sathvika",
+                "Aspects": {
+                    "planets": [
+                        "Mars"
+                    ],
+                    "houses": [
+                        3,
+                        5,
+                        7
+                    ],
+                    "signs": [
+                        "Aquarius",
+                        "Aries",
+                        "Gemini"
+                    ]
+                },
+                "Aspected-by": [
+                    "Mars"
+                ],
+                "conjuncts": [],
+                "status": 2,
+                "nirayana_long": 184.01384635539668
+            },
+            "Venus": {
+                "name": "Venus",
+                "symbol": "Ve",
+                "retro": false,
+                "pos": {
+                    "deg": 7,
+                    "min": 6,
+                    "sec": 12,
+                    "dec_deg": 7.10337076675853
+                },
+                "longitude": 277.10337076675853,
+                "lon_speed": 1.2563029017136975,
+                "latitude": -1.1830928618109051,
+                "lat_speed": -0.02451759024665289,
+                "distance": 1.6905689681132094,
+                "dist_speed": -0.00124626340381634,
+                "nakshatra": "Uttara Ashadha",
+                "pada": 4,
+                "nak-ruler": "Sun",
+                "nak-diety": "Vishwe Devatas",
+                "sign": "Capricorn",
+                "rashi": "Makara",
+                "dispositor": "Saturn",
+                "tattva": "Air/Vaayu",
+                "sign-tatva": "Earth/Pruthvi",
+                "house-rel": "Friends sign / Mitra rashi",
+                "house-nature": "Dharma",
+                "planet-nature": "Soumya graha",
+                "gender": "Female",
+                "category": "Danava",
+                "house-num": 2,
+                "friends": [
+                    "Saturn",
+                    "Mercury",
+                    "Rahu",
+                    "Ketu"
+                ],
+                "enemies": [
+                    "Sun",
+                    "Moon"
+                ],
+                "nuetral": [
+                    "Mars",
+                    "Jupiter"
+                ],
+                "varna": "Brahmana",
+                "guna": "Rajasika",
+                "Aspects": {
+                    "planets": [],
+                    "houses": [
+                        8
+                    ],
+                    "signs": [
+                        "Cancer"
+                    ]
+                },
+                "Aspected-by": [
+                    "Ketu"
+                ],
+                "conjuncts": [
+                    "Mercury"
+                ],
+                "status": 2,
+                "nirayana_long": 277.10337076675853
+            },
+            "Saturn": {
+                "name": "Saturn",
+                "symbol": "Sa",
+                "retro": false,
+                "pos": {
+                    "deg": 13,
+                    "min": 34,
+                    "sec": 24,
+                    "dec_deg": 13.57360714380087
+                },
+                "longitude": 163.57360714380087,
+                "lon_speed": 0.00518253861223635,
+                "latitude": 2.3772603155448375,
+                "lat_speed": 0.004795294913136299,
+                "distance": 9.190949582808434,
+                "dist_speed": -0.01597172778378703,
+                "nakshatra": "Hasta",
+                "pada": 2,
+                "nak-ruler": "Moon",
+                "nak-diety": "Surya",
+                "sign": "Virgo",
+                "rashi": "Kanya",
+                "dispositor": "Mercury",
+                "tattva": "Air/Vaayu",
+                "sign-tatva": "Earth/Pruthvi",
+                "house-rel": "Friends sign / Mitra rashi",
+                "house-nature": "Dharma",
+                "planet-nature": "Krura graha",
+                "gender": "Female",
+                "category": "Danava",
+                "house-num": 10,
+                "friends": [
+                    "Venus",
+                    "Mercury",
+                    "Rahu",
+                    "Ketu"
+                ],
+                "enemies": [
+                    "Sun",
+                    "Moon",
+                    "Mars"
+                ],
+                "nuetral": [
+                    "Jupiter"
+                ],
+                "varna": "Shudra",
+                "guna": "Tamasika",
+                "Aspects": {
+                    "planets": [
+                        "Rahu"
+                    ],
+                    "houses": [
+                        12,
+                        4,
+                        7
+                    ],
+                    "signs": [
+                        "Scorpio",
+                        "Pisces",
+                        "Gemini"
+                    ]
+                },
+                "Aspected-by": [
+                    "Ketu"
+                ],
+                "conjuncts": [
+                    "Moon"
+                ],
+                "status": 2,
+                "nirayana_long": 163.57360714380087
+            },
+            "Rahu": {
+                "name": "Rahu",
+                "symbol": "Ra",
+                "retro": true,
+                "pos": {
+                    "deg": 22,
+                    "min": 14,
+                    "sec": 49,
+                    "dec_deg": 22.247115663112254
+                },
+                "longitude": 232.24711566311225,
+                "lon_speed": -0.05299216962237133,
+                "latitude": 2.417547070067897e-15,
+                "lat_speed": 5.902214526532952e-19,
+                "distance": 0.00256955528979999,
+                "dist_speed": 1.1168700149513463e-39,
+                "nakshatra": "Jyeshta",
+                "pada": 2,
+                "nak-ruler": "Mercury",
+                "nak-diety": "Indra",
+                "sign": "Scorpio",
+                "rashi": "Vruschika",
+                "dispositor": "Mars",
+                "tattva": "Air/Vaayu",
+                "sign-tatva": "Water/Jala",
+                "house-rel": "Debilitated / Neecha",
+                "house-nature": "Dharma",
+                "planet-nature": "Krura graha",
+                "gender": "Male",
+                "category": "Danava",
+                "house-num": 12,
+                "friends": [
+                    "Venus",
+                    "Mercury",
+                    "Ketu",
+                    "Saturn"
+                ],
+                "enemies": [
+                    "Sun",
+                    "Moon",
+                    "Mars"
+                ],
+                "nuetral": [
+                    "Jupiter"
+                ],
+                "varna": "Shudra",
+                "guna": "Tamasika",
+                "Aspects": {
+                    "planets": [
+                        "Ketu"
+                    ],
+                    "houses": [
+                        4,
+                        6,
+                        8
+                    ],
+                    "signs": [
+                        "Pisces",
+                        "Taurus",
+                        "Cancer"
+                    ]
+                },
+                "Aspected-by": [
+                    "Ketu",
+                    "Mars",
+                    "Saturn"
+                ],
+                "conjuncts": [],
+                "status": 2,
+                "nirayana_long": 232.24711566311225
+            },
+            "Ketu": {
+                "name": "Ketu",
+                "symbol": "Ke",
+                "retro": true,
+                "pos": {
+                    "deg": 22,
+                    "min": 14,
+                    "sec": 49,
+                    "dec_deg": 22.247115663112254
+                },
+                "longitude": 52.247115663112254,
+                "lon_speed": 0.05299216962237133,
+                "latitude": -2.417547070067897e-15,
+                "lat_speed": -5.902214526532952e-19,
+                "distance": 0.00256955528979999,
+                "dist_speed": 1.1168700149513463e-39,
+                "nakshatra": "Rohini",
+                "pada": 4,
+                "nak-ruler": "Moon",
+                "nak-diety": "Bramha",
+                "sign": "Taurus",
+                "rashi": "Vrushaba",
+                "dispositor": "Venus",
+                "tattva": "Air/Vaayu",
+                "sign-tatva": "Earth/Pruthvi",
+                "house-rel": "Debilitated / Neecha",
+                "house-nature": "Dharma",
+                "planet-nature": "Krura graha",
+                "gender": "Female",
+                "category": "Danava",
+                "house-num": 6,
+                "friends": [
+                    "Venus",
+                    "Mercury",
+                    "Rahu",
+                    "Saturn"
+                ],
+                "enemies": [
+                    "Sun",
+                    "Moon",
+                    "Mars"
+                ],
+                "nuetral": [
+                    "Jupiter"
+                ],
+                "varna": "Shudra",
+                "guna": "Tamasika",
+                "Aspects": {
+                    "planets": [
+                        "Moon",
+                        "Saturn",
+                        "Rahu",
+                        "Mercury",
+                        "Venus"
+                    ],
+                    "houses": [
+                        10,
+                        12,
+                        2
+                    ],
+                    "signs": [
+                        "Virgo",
+                        "Scorpio",
+                        "Capricorn"
+                    ]
+                },
+                "Aspected-by": [
+                    "Rahu"
+                ],
+                "conjuncts": [],
+                "status": 2,
+                "nirayana_long": 52.247115663112254
+            }
+        },
+        "houses": [
+            {
+                "planets": [
+                    "Sun"
+                ],
+                "house-num": 1,
+                "sign-num": 9,
+                "sign": "Saggitarius",
+                "sign-lord": "Jupiter",
+                "rashi": "Dhanu",
+                "aspect-planets": []
+            },
+            {
+                "planets": [
+                    "Mercury",
+                    "Venus"
+                ],
+                "house-num": 2,
+                "sign-num": 10,
+                "sign": "Capricorn",
+                "sign-lord": "Saturn",
+                "rashi": "Makara",
+                "aspect-planets": [
+                    "Ketu"
+                ]
+            },
+            {
+                "planets": [],
+                "house-num": 3,
+                "sign-num": 11,
+                "sign": "Aquarius",
+                "sign-lord": "Saturn",
+                "rashi": "Kumbha",
+                "aspect-planets": [
+                    "Jupiter"
+                ]
+            },
+            {
+                "planets": [],
+                "house-num": 4,
+                "sign-num": 12,
+                "sign": "Pisces",
+                "sign-lord": "Jupiter",
+                "rashi": "Meena",
+                "aspect-planets": [
+                    "Moon",
+                    "Saturn",
+                    "Rahu"
+                ]
+            },
+            {
+                "planets": [
+                    "Mars"
+                ],
+                "house-num": 5,
+                "sign-num": 1,
+                "sign": "Aries",
+                "sign-lord": "Mars",
+                "rashi": "Mesha",
+                "aspect-planets": [
+                    "Jupiter"
+                ]
+            },
+            {
+                "planets": [
+                    "Ketu"
+                ],
+                "house-num": 6,
+                "sign-num": 2,
+                "sign": "Taurus",
+                "sign-lord": "Venus",
+                "rashi": "Vrushaba",
+                "aspect-planets": [
+                    "Rahu"
+                ]
+            },
+            {
+                "planets": [],
+                "house-num": 7,
+                "sign-num": 3,
+                "sign": "Gemini",
+                "sign-lord": "Mercury",
+                "rashi": "Mithuna",
+                "aspect-planets": [
+                    "Sun",
+                    "Saturn",
+                    "Jupiter"
+                ]
+            },
+            {
+                "planets": [],
+                "house-num": 8,
+                "sign-num": 4,
+                "sign": "Cancer",
+                "sign-lord": "Moon",
+                "rashi": "Karka",
+                "aspect-planets": [
+                    "Mercury",
+                    "Venus",
+                    "Mars",
+                    "Rahu"
+                ]
+            },
+            {
+                "planets": [],
+                "house-num": 9,
+                "sign-num": 5,
+                "sign": "Leo",
+                "sign-lord": "Sun",
+                "rashi": "Simha",
+                "aspect-planets": []
+            },
+            {
+                "planets": [
+                    "Moon",
+                    "Saturn"
+                ],
+                "house-num": 10,
+                "sign-num": 6,
+                "sign": "Virgo",
+                "sign-lord": "Mercury",
+                "rashi": "Kanya",
+                "aspect-planets": [
+                    "Ketu"
+                ]
+            },
+            {
+                "planets": [
+                    "Jupiter"
+                ],
+                "house-num": 11,
+                "sign-num": 7,
+                "sign": "Libra",
+                "sign-lord": "Venus",
+                "rashi": "Tula",
+                "aspect-planets": [
+                    "Mars"
+                ]
+            },
+            {
+                "planets": [
+                    "Rahu"
+                ],
+                "house-num": 12,
+                "sign-num": 8,
+                "sign": "Scorpio",
+                "sign-lord": "Mars",
+                "rashi": "Vruschika",
+                "aspect-planets": [
+                    "Ketu",
+                    "Mars",
+                    "Saturn"
+                ]
+            }
+        ],
+        "classifications": {
+            "benefics": [
+                "Sun",
+                "Mars",
+                "Mercury",
+                "Jupiter"
+            ],
+            "malefics": [
+                "Moon",
+                "Venus",
+                "Saturn"
+            ],
+            "neutral": [],
+            "kendra": [
+                "Sun",
+                "Moon",
+                "Saturn"
+            ],
+            "trikona": [
+                "Sun",
+                "Mars"
+            ],
+            "trik": [
+                "Ketu",
+                "Rahu"
+            ],
+            "upachaya": [
+                "Ketu",
+                "Jupiter"
+            ],
+            "dharma": [
+                "Sun",
+                "Mars"
+            ],
+            "artha": [
+                "Mercury",
+                "Venus",
+                "Ketu",
+                "Moon",
+                "Saturn"
+            ],
+            "kama": [
+                "Jupiter"
+            ],
+            "moksha": [
+                "Rahu"
+            ],
+            "natural-benefics": [
+                "Jupiter",
+                "Venus",
+                "Mercury"
+            ],
+            "natural-malefics": [
+                "Sun",
+                "Saturn",
+                "Mars",
+                "Rahu",
+                "Ketu",
+                "Moon"
+            ]
+        }
+    },
+    "D9": {
+        "name": "Navamsa",
+        "symbol": "D9",
+        "houses": [
+            {
+                "planets": [
+                    "Jupiter"
+                ],
+                "house-num": 1,
+                "sign-num": 8,
+                "sign": "Scorpio",
+                "sign-lord": "Mars",
+                "rashi": "Vruschika",
+                "aspect-planets": [
+                    "Mars",
+                    "Saturn",
+                    "Ketu"
+                ]
+            },
+            {
+                "planets": [
+                    "Sun"
+                ],
+                "house-num": 2,
+                "sign-num": 9,
+                "sign": "Saggitarius",
+                "sign-lord": "Jupiter",
+                "rashi": "Dhanu",
+                "aspect-planets": [
+                    "Moon",
+                    "Mars"
+                ]
+            },
+            {
+                "planets": [
+                    "Rahu"
+                ],
+                "house-num": 3,
+                "sign-num": 10,
+                "sign": "Capricorn",
+                "sign-lord": "Saturn",
+                "rashi": "Makara",
+                "aspect-planets": [
+                    "Ketu"
+                ]
+            },
+            {
+                "planets": [],
+                "house-num": 4,
+                "sign-num": 11,
+                "sign": "Aquarius",
+                "sign-lord": "Saturn",
+                "rashi": "Kumbha",
+                "aspect-planets": [
+                    "Saturn"
+                ]
+            },
+            {
+                "planets": [
+                    "Venus"
+                ],
+                "house-num": 5,
+                "sign-num": 12,
+                "sign": "Pisces",
+                "sign-lord": "Jupiter",
+                "rashi": "Meena",
+                "aspect-planets": [
+                    "Jupiter",
+                    "Ketu"
+                ]
+            },
+            {
+                "planets": [
+                    "Mercury"
+                ],
+                "house-num": 6,
+                "sign-num": 1,
+                "sign": "Aries",
+                "sign-lord": "Mars",
+                "rashi": "Mesha",
+                "aspect-planets": []
+            },
+            {
+                "planets": [
+                    "Mars",
+                    "Saturn"
+                ],
+                "house-num": 7,
+                "sign-num": 2,
+                "sign": "Taurus",
+                "sign-lord": "Venus",
+                "rashi": "Vrushaba",
+                "aspect-planets": [
+                    "Jupiter",
+                    "Rahu"
+                ]
+            },
+            {
+                "planets": [
+                    "Moon"
+                ],
+                "house-num": 8,
+                "sign-num": 3,
+                "sign": "Gemini",
+                "sign-lord": "Mercury",
+                "rashi": "Mithuna",
+                "aspect-planets": [
+                    "Sun"
+                ]
+            },
+            {
+                "planets": [
+                    "Ketu"
+                ],
+                "house-num": 9,
+                "sign-num": 4,
+                "sign": "Cancer",
+                "sign-lord": "Moon",
+                "rashi": "Karka",
+                "aspect-planets": [
+                    "Rahu",
+                    "Saturn",
+                    "Jupiter"
+                ]
+            },
+            {
+                "planets": [],
+                "house-num": 10,
+                "sign-num": 5,
+                "sign": "Leo",
+                "sign-lord": "Sun",
+                "rashi": "Simha",
+                "aspect-planets": [
+                    "Mars"
+                ]
+            },
+            {
+                "planets": [],
+                "house-num": 11,
+                "sign-num": 6,
+                "sign": "Virgo",
+                "sign-lord": "Mercury",
+                "rashi": "Kanya",
+                "aspect-planets": [
+                    "Venus",
+                    "Rahu"
+                ]
+            },
+            {
+                "planets": [],
+                "house-num": 12,
+                "sign-num": 7,
+                "sign": "Libra",
+                "sign-lord": "Venus",
+                "rashi": "Tula",
+                "aspect-planets": [
+                    "Mercury"
+                ]
+            }
+        ],
+        "classifications": {
+            "benefics": [
+                "Sun",
+                "Moon",
+                "Mars",
+                "Jupiter"
+            ],
+            "malefics": [
+                "Mercury",
+                "Venus"
+            ],
+            "neutral": [
+                "Saturn"
+            ],
+            "kendra": [
+                "Jupiter",
+                "Mars",
+                "Saturn"
+            ],
+            "trikona": [
+                "Jupiter",
+                "Venus",
+                "Ketu"
+            ],
+            "trik": [
+                "Mercury",
+                "Moon"
+            ],
+            "upachaya": [
+                "Rahu",
+                "Mercury"
+            ],
+            "dharma": [
+                "Jupiter",
+                "Venus",
+                "Ketu"
+            ],
+            "artha": [
+                "Sun",
+                "Mercury"
+            ],
+            "kama": [
+                "Rahu",
+                "Mars",
+                "Saturn"
+            ],
+            "moksha": [
+                "Moon"
+            ],
+            "natural-benefics": [
+                "Jupiter",
+                "Venus",
+                "Moon",
+                "Mercury"
+            ],
+            "natural-malefics": [
+                "Sun",
+                "Saturn",
+                "Mars",
+                "Rahu",
+                "Ketu"
+            ]
+        },
+        "ascendant": {
+            "name": "Ascendant",
+            "symbol": "Asc",
+            "pos": {
+                "deg": 25,
+                "min": 52,
+                "sec": 3.0,
+                "dec_deg": 25.8675
+            },
+            "nakshatra": "Jyeshta",
+            "pada": 3,
+            "nak-ruler": "Mercury",
+            "nak-diety": "Indra",
+            "sign": "Scorpio",
+            "rashi": "Vruschika",
+            "lagna-lord": "Mars",
+            "sign-tatva": "Water/Jala",
+            "lagnesh-sign": "Taurus",
+            "lagnesh-rashi": "Vrushaba",
+            "lagnesh-disp": "Venus",
+            "status": 1
+        },
+        "planets": {
+            "Sun": {
+                "name": "Sun",
+                "symbol": "Su",
+                "retro": false,
+                "pos": {
+                    "deg": 24,
+                    "min": 48,
+                    "sec": 36.0,
+                    "dec_deg": 24.81
+                },
+                "nakshatra": "Purva Ashadha",
+                "pada": 4,
+                "nak-ruler": "Venus",
+                "nak-diety": "Apah",
+                "sign": "Saggitarius",
+                "rashi": "Dhanu",
+                "dispositor": "Jupiter",
+                "tattva": "Fire/Agni",
+                "sign-tatva": "Fire/Agni",
+                "house-rel": "Friends sign / Mitra rashi",
+                "house-nature": "Artha",
+                "planet-nature": "Krura graha",
+                "gender": "Male",
+                "category": "Deva",
+                "house-num": 2,
+                "friends": [
+                    "Moon",
+                    "Mars",
+                    "Jupiter"
+                ],
+                "enemies": [
+                    "Venus",
+                    "Saturn",
+                    "Rahu",
+                    "Ketu"
+                ],
+                "nuetral": [
+                    "Mercury"
+                ],
+                "varna": "Kshatriya",
+                "guna": "Sathvika",
+                "Aspects": {
+                    "planets": [
+                        "Moon"
+                    ],
+                    "houses": [
+                        8
+                    ],
+                    "signs": [
+                        "Gemini"
+                    ]
+                },
+                "Aspected-by": [
+                    "Moon",
+                    "Mars"
+                ],
+                "conjuncts": [],
+                "status": 1
+            },
+            "Moon": {
+                "name": "Moon",
+                "symbol": "Mo",
+                "retro": false,
+                "pos": {
+                    "deg": 7,
+                    "min": 4,
+                    "sec": 30.0,
+                    "dec_deg": 7.075
+                },
+                "nakshatra": "Ardra",
+                "pada": 1,
+                "nak-ruler": "Rahu",
+                "nak-diety": "Rudra",
+                "sign": "Gemini",
+                "rashi": "Mithuna",
+                "dispositor": "Mercury",
+                "tattva": "Water/Jala",
+                "sign-tatva": "Air/Vaayu",
+                "house-rel": "Friends sign / Mitra rashi",
+                "house-nature": "Moksha",
+                "planet-nature": "Soumya graha",
+                "gender": "Female",
+                "category": "Deva",
+                "house-num": 8,
+                "friends": [
+                    "Sun",
+                    "Mercury"
+                ],
+                "enemies": [],
+                "nuetral": [
+                    "Mars",
+                    "Venus",
+                    "Jupiter",
+                    "Saturn",
+                    "Rahu",
+                    "Ketu"
+                ],
+                "varna": "Vaishya",
+                "guna": "Sathvika",
+                "Aspects": {
+                    "planets": [
+                        "Sun"
+                    ],
+                    "houses": [
+                        2
+                    ],
+                    "signs": [
+                        "Saggitarius"
+                    ]
+                },
+                "Aspected-by": [
+                    "Sun"
+                ],
+                "conjuncts": [],
+                "status": 1
+            },
+            "Mars": {
+                "name": "Mars",
+                "symbol": "Ma",
+                "retro": false,
+                "pos": {
+                    "deg": 26,
+                    "min": 54,
+                    "sec": 45.0,
+                    "dec_deg": 26.9125
+                },
+                "nakshatra": "Mrigashira",
+                "pada": 2,
+                "nak-ruler": "Mars",
+                "nak-diety": "Soma",
+                "sign": "Taurus",
+                "rashi": "Vrushaba",
+                "dispositor": "Venus",
+                "tattva": "Fire/Agni",
+                "sign-tatva": "Earth/Pruthvi",
+                "house-rel": "Neutral sign / Sama rashi",
+                "house-nature": "Kama",
+                "planet-nature": "Krura graha",
+                "gender": "Male",
+                "category": "Deva",
+                "house-num": 7,
+                "friends": [
+                    "Sun",
+                    "Moon",
+                    "Jupiter"
+                ],
+                "enemies": [
+                    "Mercury"
+                ],
+                "nuetral": [
+                    "Saturn",
+                    "Venus",
+                    "Rahu",
+                    "Ketu"
+                ],
+                "varna": "Kshatriya",
+                "guna": "Tamasika",
+                "Aspects": {
+                    "planets": [
+                        "Jupiter",
+                        "Sun"
+                    ],
+                    "houses": [
+                        10,
+                        1,
+                        2
+                    ],
+                    "signs": [
+                        "Leo",
+                        "Scorpio",
+                        "Saggitarius"
+                    ]
+                },
+                "Aspected-by": [
+                    "Jupiter",
+                    "Rahu"
+                ],
+                "conjuncts": [
+                    "Saturn"
+                ],
+                "status": 1
+            },
+            "Mercury": {
+                "name": "Mercury",
+                "symbol": "Me",
+                "retro": false,
+                "pos": {
+                    "deg": 15,
+                    "min": 57,
+                    "sec": 36.0,
+                    "dec_deg": 15.96
+                },
+                "nakshatra": "Bharani",
+                "pada": 1,
+                "nak-ruler": "Venus",
+                "nak-diety": "Yama",
+                "sign": "Aries",
+                "rashi": "Mesha",
+                "dispositor": "Mars",
+                "tattva": "Earth/Pruthvi",
+                "sign-tatva": "Fire/Agni",
+                "house-rel": "Neutral sign / Sama rashi",
+                "house-nature": "Artha",
+                "planet-nature": "Krura graha",
+                "gender": "Enuch",
+                "category": "Neutral",
+                "house-num": 6,
+                "friends": [
+                    "Sun",
+                    "Venus",
+                    "Rahu"
+                ],
+                "enemies": [
+                    "Moon",
+                    "Ketu"
+                ],
+                "nuetral": [
+                    "Saturn",
+                    "Mars",
+                    "Jupiter"
+                ],
+                "varna": "Shudra",
+                "guna": "Rajasika",
+                "Aspects": {
+                    "planets": [],
+                    "houses": [
+                        12
+                    ],
+                    "signs": [
+                        "Libra"
+                    ]
+                },
+                "Aspected-by": [],
+                "conjuncts": [],
+                "status": 1
+            },
+            "Jupiter": {
+                "name": "Jupiter",
+                "symbol": "Ju",
+                "retro": false,
+                "pos": {
+                    "deg": 6,
+                    "min": 7,
+                    "sec": 21.0,
+                    "dec_deg": 6.1225
+                },
+                "nakshatra": "Anurada",
+                "pada": 1,
+                "nak-ruler": "Saturn",
+                "nak-diety": "Mitra",
+                "sign": "Scorpio",
+                "rashi": "Vruschika",
+                "dispositor": "Mars",
+                "tattva": "Fire/Agni",
+                "sign-tatva": "Water/Jala",
+                "house-rel": "Friends sign / Mitra rashi",
+                "house-nature": "Dharma",
+                "planet-nature": "Soumya graha",
+                "gender": "Male",
+                "category": "Deva",
+                "house-num": 1,
+                "friends": [
+                    "Moon",
+                    "Mars",
+                    "Sun",
+                    "Ketu"
+                ],
+                "enemies": [
+                    "Venus",
+                    "Mercury",
+                    "Rahu"
+                ],
+                "nuetral": [
+                    "Saturn"
+                ],
+                "varna": "Brahmana",
+                "guna": "Sathvika",
+                "Aspects": {
+                    "planets": [
+                        "Venus",
+                        "Mars",
+                        "Saturn",
+                        "Ketu"
+                    ],
+                    "houses": [
+                        5,
+                        7,
+                        9
+                    ],
+                    "signs": [
+                        "Pisces",
+                        "Taurus",
+                        "Cancer"
+                    ]
+                },
+                "Aspected-by": [
+                    "Mars",
+                    "Saturn",
+                    "Ketu"
+                ],
+                "conjuncts": [],
+                "status": 1
+            },
+            "Venus": {
+                "name": "Venus",
+                "symbol": "Ve",
+                "retro": false,
+                "pos": {
+                    "deg": 3,
+                    "min": 55,
+                    "sec": 48.0,
+                    "dec_deg": 3.93
+                },
+                "nakshatra": "Uttara Bhadrapada",
+                "pada": 1,
+                "nak-ruler": "Saturn",
+                "nak-diety": "Ahir Budhyana",
+                "sign": "Pisces",
+                "rashi": "Meena",
+                "dispositor": "Jupiter",
+                "tattva": "Air/Vaayu",
+                "sign-tatva": "Water/Jala",
+                "house-rel": "Exhalted / Uchha",
+                "house-nature": "Dharma",
+                "planet-nature": "Soumya graha",
+                "gender": "Female",
+                "category": "Danava",
+                "house-num": 5,
+                "friends": [
+                    "Saturn",
+                    "Mercury",
+                    "Rahu",
+                    "Ketu"
+                ],
+                "enemies": [
+                    "Sun",
+                    "Moon"
+                ],
+                "nuetral": [
+                    "Mars",
+                    "Jupiter"
+                ],
+                "varna": "Brahmana",
+                "guna": "Rajasika",
+                "Aspects": {
+                    "planets": [],
+                    "houses": [
+                        11
+                    ],
+                    "signs": [
+                        "Virgo"
+                    ]
+                },
+                "Aspected-by": [
+                    "Jupiter",
+                    "Ketu"
+                ],
+                "conjuncts": [],
+                "status": 1
+            },
+            "Saturn": {
+                "name": "Saturn",
+                "symbol": "Sa",
+                "retro": false,
+                "pos": {
+                    "deg": 2,
+                    "min": 9,
+                    "sec": 36.0,
+                    "dec_deg": 2.16
+                },
+                "nakshatra": "Kritika",
+                "pada": 2,
+                "nak-ruler": "Sun",
+                "nak-diety": "Agni",
+                "sign": "Taurus",
+                "rashi": "Vrushaba",
+                "dispositor": "Venus",
+                "tattva": "Air/Vaayu",
+                "sign-tatva": "Earth/Pruthvi",
+                "house-rel": "Friends sign / Mitra rashi",
+                "house-nature": "Kama",
+                "planet-nature": "Krura graha",
+                "gender": "Female",
+                "category": "Danava",
+                "house-num": 7,
+                "friends": [
+                    "Venus",
+                    "Mercury",
+                    "Rahu",
+                    "Ketu"
+                ],
+                "enemies": [
+                    "Sun",
+                    "Moon",
+                    "Mars"
+                ],
+                "nuetral": [
+                    "Jupiter"
+                ],
+                "varna": "Shudra",
+                "guna": "Tamasika",
+                "Aspects": {
+                    "planets": [
+                        "Ketu",
+                        "Jupiter"
+                    ],
+                    "houses": [
+                        9,
+                        1,
+                        4
+                    ],
+                    "signs": [
+                        "Cancer",
+                        "Scorpio",
+                        "Aquarius"
+                    ]
+                },
+                "Aspected-by": [
+                    "Jupiter",
+                    "Rahu"
+                ],
+                "conjuncts": [
+                    "Mars"
+                ],
+                "status": 1
+            },
+            "Rahu": {
+                "name": "Rahu",
+                "symbol": "Ra",
+                "retro": true,
+                "pos": {
+                    "deg": 20,
+                    "min": 13,
+                    "sec": 21.0,
+                    "dec_deg": 20.2225
+                },
+                "nakshatra": "Shravana",
+                "pada": 4,
+                "nak-ruler": "Moon",
+                "nak-diety": "Vishnu",
+                "sign": "Capricorn",
+                "rashi": "Makara",
+                "dispositor": "Saturn",
+                "tattva": "Air/Vaayu",
+                "sign-tatva": "Earth/Pruthvi",
+                "house-rel": "Friends sign / Mitra rashi",
+                "house-nature": "Kama",
+                "planet-nature": "Krura graha",
+                "gender": "Male",
+                "category": "Danava",
+                "house-num": 3,
+                "friends": [
+                    "Venus",
+                    "Mercury",
+                    "Ketu",
+                    "Saturn"
+                ],
+                "enemies": [
+                    "Sun",
+                    "Moon",
+                    "Mars"
+                ],
+                "nuetral": [
+                    "Jupiter"
+                ],
+                "varna": "Shudra",
+                "guna": "Tamasika",
+                "Aspects": {
+                    "planets": [
+                        "Mars",
+                        "Saturn",
+                        "Ketu"
+                    ],
+                    "houses": [
+                        7,
+                        9,
+                        11
+                    ],
+                    "signs": [
+                        "Taurus",
+                        "Cancer",
+                        "Virgo"
+                    ]
+                },
+                "Aspected-by": [
+                    "Ketu"
+                ],
+                "conjuncts": [],
+                "status": 1
+            },
+            "Ketu": {
+                "name": "Ketu",
+                "symbol": "Ke",
+                "retro": true,
+                "pos": {
+                    "deg": 20,
+                    "min": 13,
+                    "sec": 21.0,
+                    "dec_deg": 20.2225
+                },
+                "nakshatra": "Ashlesha",
+                "pada": 2,
+                "nak-ruler": "Mercury",
+                "nak-diety": "Nagas",
+                "sign": "Cancer",
+                "rashi": "Karka",
+                "dispositor": "Moon",
+                "tattva": "Air/Vaayu",
+                "sign-tatva": "Water/Jala",
+                "house-rel": "Enemy sign / Shatru rashi",
+                "house-nature": "Dharma",
+                "planet-nature": "Krura graha",
+                "gender": "Female",
+                "category": "Danava",
+                "house-num": 9,
+                "friends": [
+                    "Venus",
+                    "Mercury",
+                    "Rahu",
+                    "Saturn"
+                ],
+                "enemies": [
+                    "Sun",
+                    "Moon",
+                    "Mars"
+                ],
+                "nuetral": [
+                    "Jupiter"
+                ],
+                "varna": "Shudra",
+                "guna": "Tamasika",
+                "Aspects": {
+                    "planets": [
+                        "Jupiter",
+                        "Rahu",
+                        "Venus"
+                    ],
+                    "houses": [
+                        1,
+                        3,
+                        5
+                    ],
+                    "signs": [
+                        "Scorpio",
+                        "Capricorn",
+                        "Pisces"
+                    ]
+                },
+                "Aspected-by": [
+                    "Rahu",
+                    "Saturn",
+                    "Jupiter"
+                ],
+                "conjuncts": [],
+                "status": 1
+            }
+        },
+        "vargottamas": [
+            "Sun"
+        ]
+    },
+    "Balas": {
+        "Vimshopaka": {
+            "shadvarga": {
+                "Sun": 16.9,
+                "Moon": 10.65,
+                "Mars": 17.1,
+                "Mercury": 10.85,
+                "Jupiter": 10.0,
+                "Venus": 12.75,
+                "Saturn": 14.25,
+                "Rahu": 10.9,
+                "Ketu": 8.25
+            },
+            "saptavarga": {
+                "Sun": 16.425,
+                "Moon": 12.05,
+                "Mars": 16.6,
+                "Mercury": 12.125,
+                "Jupiter": 10.0,
+                "Venus": 12.625,
+                "Saturn": 13.75,
+                "Rahu": 11.95,
+                "Ketu": 8.375
+            },
+            "dashavarga": {
+                "Sun": 14.275,
+                "Moon": 13.925,
+                "Mars": 16.025,
+                "Mercury": 13.05,
+                "Jupiter": 10.0,
+                "Venus": 12.75,
+                "Saturn": 13.5,
+                "Rahu": 11.65,
+                "Ketu": 8.5
+            },
+            "shodashavarga": {
+                "Sun": 15.5,
+                "Moon": 13.075,
+                "Mars": 15.575,
+                "Mercury": 12.65,
+                "Jupiter": 10.125,
+                "Venus": 12.0,
+                "Saturn": 11.875,
+                "Rahu": 12.175,
+                "Ketu": 8.15
+            }
+        },
+        "Shadbala": {
+            "Total": {
+                "Sun": 384.133,
+                "Moon": 409.357,
+                "Mars": 519.812,
+                "Mercury": 446.132,
+                "Jupiter": 505.883,
+                "Venus": 354.511,
+                "Saturn": 441.848
+            },
+            "Rupas": {
+                "Sun": 6.402,
+                "Moon": 6.823,
+                "Mars": 8.664,
+                "Mercury": 7.436,
+                "Jupiter": 8.431,
+                "Venus": 5.909,
+                "Saturn": 7.364
+            },
+            "Sthanabala": {
+                "Total": {
+                    "Sun": 251.474,
+                    "Moon": 204.182,
+                    "Mars": 276.225,
+                    "Mercury": 205.076,
+                    "Jupiter": 160.329,
+                    "Venus": 208.368,
+                    "Saturn": 272.858
+                },
+                "Uchhabala": {
+                    "Sun": 26.474,
+                    "Moon": 15.182,
+                    "Mars": 37.225,
+                    "Mercury": 21.076,
+                    "Jupiter": 30.329,
+                    "Venus": 33.368,
+                    "Saturn": 47.858
+                },
+                "Saptavargajabala": {
+                    "Sun": 135.0,
+                    "Moon": 99.0,
+                    "Mars": 179.0,
+                    "Mercury": 139.0,
+                    "Jupiter": 70.0,
+                    "Venus": 115.0,
+                    "Saturn": 165.0
+                },
+                "Ojhayugmarashiamshabala": {
+                    "Sun": 30.0,
+                    "Moon": 15.0,
+                    "Mars": 15.0,
+                    "Mercury": 15.0,
+                    "Jupiter": 15.0,
+                    "Venus": 30.0,
+                    "Saturn": 0.0
+                },
+                "Kendradhibala": {
+                    "Sun": 60,
+                    "Moon": 60,
+                    "Mars": 30,
+                    "Mercury": 30,
+                    "Jupiter": 30,
+                    "Venus": 30,
+                    "Saturn": 60
+                },
+                "Drekshanabala": {
+                    "Sun": 0,
+                    "Moon": 15,
+                    "Mars": 15,
+                    "Mercury": 0,
+                    "Jupiter": 15,
+                    "Venus": 0,
+                    "Saturn": 0
+                }
+            },
+            "Digbala": {
+                "Sun": 25.192,
+                "Moon": 0.818,
+                "Mars": 7.108,
+                "Mercury": 51.076,
+                "Jupiter": 36.338,
+                "Venus": 37.368,
+                "Saturn": 30.476
+            },
+            "Kaalabala": {
+                "Total": {
+                    "Sun": 57.13,
+                    "Moon": 124.762,
+                    "Mars": 166.53,
+                    "Mercury": 146.364,
+                    "Jupiter": 239.458,
+                    "Venus": 67.314,
+                    "Saturn": 81.719
+                },
+                "Natonnatabala": {
+                    "Sun": 27.25,
+                    "Moon": 32.75,
+                    "Mars": 32.75,
+                    "Mercury": 60.0,
+                    "Jupiter": 27.25,
+                    "Venus": 27.25,
+                    "Saturn": 32.75
+                },
+                "Pakshabala": {
+                    "Sun": 26.01,
+                    "Moon": 26.01,
+                    "Mars": 26.01,
+                    "Mercury": 33.99,
+                    "Jupiter": 33.99,
+                    "Venus": 33.99,
+                    "Saturn": 26.01
+                },
+                "Tribhagabala": {
+                    "Sun": 0.0,
+                    "Moon": 0.0,
+                    "Mars": 60.0,
+                    "Mercury": 0.0,
+                    "Jupiter": 60.0,
+                    "Venus": 0.0,
+                    "Saturn": 0.0
+                },
+                "Varsha-maasa-dina-horabala": {
+                    "Sun": 0.0,
+                    "Moon": 45.0,
+                    "Mars": 0.0,
+                    "Mercury": 0.0,
+                    "Jupiter": 105.0,
+                    "Venus": 0.0,
+                    "Saturn": 0.0
+                },
+                "Yuddhabala": {
+                    "Sun": 0,
+                    "Moon": 0,
+                    "Mars": 0,
+                    "Mercury": 0,
+                    "Jupiter": 0,
+                    "Venus": 0,
+                    "Saturn": 0
+                },
+                "Ayanabala": {
+                    "Sun": 3.87,
+                    "Moon": 21.002,
+                    "Mars": 47.77,
+                    "Mercury": 52.374,
+                    "Jupiter": 13.218,
+                    "Venus": 6.074,
+                    "Saturn": 22.959
+                }
+            },
+            "Cheshtabala": {
+                "Sun": 3.87,
+                "Moon": 26.01,
+                "Mars": 52.38,
+                "Mercury": 24.7,
+                "Jupiter": 43.623,
+                "Venus": 7.68,
+                "Saturn": 43.585
+            },
+            "Naisargikabala": {
+                "Sun": 60,
+                "Moon": 51.4,
+                "Mars": 17.1,
+                "Mercury": 25.7,
+                "Jupiter": 34.3,
+                "Venus": 42.9,
+                "Saturn": 8.6
+            },
+            "Drikbala": {
+                "Sun": -13.533,
+                "Moon": 2.185,
+                "Mars": 0.469,
+                "Mercury": -6.784,
+                "Jupiter": -8.165,
+                "Venus": -9.119,
+                "Saturn": 4.61
+            }
+        },
+        "Ishtabala": {
+            "Sun": 10.122,
+            "Moon": 19.872,
+            "Mars": 44.157,
+            "Mercury": 22.816,
+            "Jupiter": 36.374,
+            "Venus": 16.008,
+            "Saturn": 45.672
+        },
+        "Kashtabala": {
+            "Sun": 49.878,
+            "Moon": 40.128,
+            "Mars": 15.843000000000004,
+            "Mercury": 37.184,
+            "Jupiter": 23.625999999999998,
+            "Venus": 43.992000000000004,
+            "Saturn": 14.328000000000003
+        },
+        "BhavaBala": {
+            "BhavaAdhipathibala": [
+                505.883,
+                441.848,
+                441.848,
+                505.883,
+                519.812,
+                354.511,
+                446.132,
+                409.357,
+                384.133,
+                446.132,
+                354.511,
+                519.812
+            ],
+            "BhavaDigbala": [
+                30,
+                40,
+                0,
+                60,
+                10,
+                20,
+                0,
+                20,
+                50,
+                30,
+                40,
+                10
+            ],
+            "BhavaDrishtibala": [
+                -21.627,
+                -4.992,
+                7.624,
+                -20.465,
+                2.805,
+                4.489,
+                -19.57,
+                5.292,
+                1.145,
+                3.718,
+                -11.407,
+                -29.723
+            ],
+            "Total": [
+                514.256,
+                476.856,
+                449.472,
+                545.418,
+                532.617,
+                379.0,
+                426.562,
+                434.649,
+                435.278,
+                479.85,
+                383.104,
+                500.089
+            ]
+        }
+    },
+    "AshtakaVarga": {
+        "Sun": [
+            5,
+            2,
+            4,
+            5,
+            2,
+            4,
+            6,
+            5,
+            2,
+            4,
+            5,
+            4
+        ],
+        "Moon": [
+            1,
+            4,
+            5,
+            3,
+            2,
+            6,
+            4,
+            5,
+            2,
+            7,
+            5,
+            4
+        ],
+        "Mars": [
+            2,
+            1,
+            4,
+            3,
+            3,
+            5,
+            3,
+            4,
+            2,
+            4,
+            3,
+            4
+        ],
+        "Mercury": [
+            5,
+            4,
+            2,
+            6,
+            5,
+            7,
+            3,
+            3,
+            4,
+            5,
+            6,
+            4
+        ],
+        "Jupiter": [
+            3,
+            7,
+            5,
+            3,
+            4,
+            6,
+            4,
+            4,
+            4,
+            4,
+            7,
+            5
+        ],
+        "Venus": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            5,
+            4,
+            6,
+            4,
+            4,
+            4,
+            5
+        ],
+        "Saturn": [
+            4,
+            3,
+            5,
+            4,
+            0,
+            0,
+            4,
+            3,
+            3,
+            5,
+            3,
+            4
+        ],
+        "Total": [
+            24,
+            25,
+            29,
+            28,
+            20,
+            33,
+            28,
+            30,
+            21,
+            33,
+            33,
+            30
+        ]
+    },
+    "Dashas": {
+        "Vimshottari": {
+            "mahadashas": {
+                "Moon": {
+                    "lord": "Moon",
+                    "dashaNum": 1,
+                    "startDate": "1857-06-10 16:15:45",
+                    "endDate": "1867-06-11 02:15:45",
+                    "duration": " 4yr 4m 30d",
+                    "startage": " 0yr 0m 0d",
+                    "endage": " 4yr 4m 29d"
+                },
+                "Mars": {
+                    "lord": "Mars",
+                    "dashaNum": 2,
+                    "startDate": "1867-06-11 02:15:45",
+                    "endDate": "1874-06-10 18:51:45",
+                    "duration": " 7yr 0m 0d",
+                    "startage": " 4yr 4m 29d",
+                    "endage": " 11yr 4m 29d"
+                },
+                "Rahu": {
+                    "lord": "Rahu",
+                    "dashaNum": 3,
+                    "startDate": "1874-06-10 18:51:45",
+                    "endDate": "1892-06-10 03:15:45",
+                    "duration": " 18yr 0m -1d",
+                    "startage": " 11yr 4m 29d",
+                    "endage": " 29yr 4m 28d"
+                },
+                "Jupiter": {
+                    "lord": "Jupiter",
+                    "dashaNum": 4,
+                    "startDate": "1892-06-10 03:15:45",
+                    "endDate": "1908-06-11 00:03:45",
+                    "duration": " 16yr 0m 1d",
+                    "startage": " 29yr 4m 28d",
+                    "endage": " 45yr 4m 29d"
+                },
+                "Saturn": {
+                    "lord": "Saturn",
+                    "dashaNum": 5,
+                    "startDate": "1908-06-11 00:03:45",
+                    "endDate": "1927-06-11 14:15:45",
+                    "duration": " 19yr 0m 1d",
+                    "startage": " 45yr 4m 29d",
+                    "endage": " 64yr 4m 30d"
+                },
+                "Mercury": {
+                    "lord": "Mercury",
+                    "dashaNum": 6,
+                    "startDate": "1927-06-11 14:15:45",
+                    "endDate": "1944-06-10 16:51:45",
+                    "duration": " 17yr 0m -1d",
+                    "startage": " 64yr 4m 30d",
+                    "endage": " 81yr 4m 29d"
+                },
+                "Ketu": {
+                    "lord": "Ketu",
+                    "dashaNum": 7,
+                    "startDate": "1944-06-10 16:51:45",
+                    "endDate": "1951-06-11 09:27:45",
+                    "duration": " 7yr 0m 1d",
+                    "startage": " 81yr 4m 29d",
+                    "endage": " 88yr 4m 30d"
+                },
+                "Venus": {
+                    "lord": "Venus",
+                    "dashaNum": 8,
+                    "startDate": "1951-06-11 09:27:45",
+                    "endDate": "1971-06-11 05:27:45",
+                    "duration": " 20yr 0m -1d",
+                    "startage": " 88yr 4m 30d",
+                    "endage": " 108yr 4m 29d"
+                },
+                "Sun": {
+                    "lord": "Sun",
+                    "dashaNum": 9,
+                    "startDate": "1971-06-11 05:27:45",
+                    "endDate": "1977-06-10 16:15:45",
+                    "duration": " 6yr 0m 0d",
+                    "startage": " 108yr 4m 29d",
+                    "endage": " 114yr 4m 29d"
+                }
+            },
+            "antardashas": {
+                "Moon-Saturn": {
+                    "lord": "Saturn",
+                    "dashaLord": "Moon",
+                    "bhuktiNum": 1,
+                    "startDate": "1861-09-09 22:54:45",
+                    "endDate": "1863-04-11 06:05:45",
+                    "duration": " 0yr 2m 30d",
+                    "startage": " 0yr 0m 0d",
+                    "endage": " 0yr 2m 29d"
+                },
+                "Moon-Mercury": {
+                    "lord": "Mercury",
+                    "dashaLord": "Moon",
+                    "bhuktiNum": 2,
+                    "startDate": "1863-04-11 06:05:45",
+                    "endDate": "1864-09-09 16:18:45",
+                    "duration": " 1yr 4m 29d",
+                    "startage": " 0yr 2m 29d",
+                    "endage": " 1yr 7m 28d"
+                },
+                "Moon-Ketu": {
+                    "lord": "Ketu",
+                    "dashaLord": "Moon",
+                    "bhuktiNum": 3,
+                    "startDate": "1864-09-09 16:18:45",
+                    "endDate": "1865-04-10 17:41:45",
+                    "duration": " 0yr 7m 1d",
+                    "startage": " 1yr 7m 28d",
+                    "endage": " 2yr 2m 29d"
+                },
+                "Moon-Venus": {
+                    "lord": "Venus",
+                    "dashaLord": "Moon",
+                    "bhuktiNum": 4,
+                    "startDate": "1865-04-10 17:41:45",
+                    "endDate": "1866-12-10 11:21:45",
+                    "duration": " 1yr 7m 29d",
+                    "startage": " 2yr 2m 29d",
+                    "endage": " 3yr 10m 28d"
+                },
+                "Moon-Sun": {
+                    "lord": "Sun",
+                    "dashaLord": "Moon",
+                    "bhuktiNum": 5,
+                    "startDate": "1866-12-10 11:21:45",
+                    "endDate": "1867-06-11 02:15:45",
+                    "duration": " 0yr 6m 0d",
+                    "startage": " 3yr 10m 28d",
+                    "endage": " 4yr 4m 29d"
+                },
+                "Mars-Mars": {
+                    "lord": "Mars",
+                    "dashaLord": "Mars",
+                    "bhuktiNum": 1,
+                    "startDate": "1867-06-11 02:15:45",
+                    "endDate": "1867-11-07 05:37:51",
+                    "duration": " 0yr 4m 27d",
+                    "startage": " 4yr 4m 29d",
+                    "endage": " 4yr 9m 25d"
+                },
+                "Mars-Rahu": {
+                    "lord": "Rahu",
+                    "dashaLord": "Mars",
+                    "bhuktiNum": 2,
+                    "startDate": "1867-11-07 05:37:51",
+                    "endDate": "1868-11-24 17:43:15",
+                    "duration": " 1yr 0m 17d",
+                    "startage": " 4yr 9m 25d",
+                    "endage": " 5yr 10m 12d"
+                },
+                "Mars-Jupiter": {
+                    "lord": "Jupiter",
+                    "dashaLord": "Mars",
+                    "bhuktiNum": 3,
+                    "startDate": "1868-11-24 17:43:15",
+                    "endDate": "1869-10-31 15:08:03",
+                    "duration": " 0yr 11m 6d",
+                    "startage": " 5yr 10m 12d",
+                    "endage": " 6yr 9m 19d"
+                },
+                "Mars-Saturn": {
+                    "lord": "Saturn",
+                    "dashaLord": "Mars",
+                    "bhuktiNum": 4,
+                    "startDate": "1869-10-31 15:08:03",
+                    "endDate": "1870-12-10 10:33:45",
+                    "duration": " 1yr 1m 9d",
+                    "startage": " 6yr 9m 19d",
+                    "endage": " 7yr 10m 28d"
+                },
+                "Mars-Mercury": {
+                    "lord": "Mercury",
+                    "dashaLord": "Mars",
+                    "bhuktiNum": 5,
+                    "startDate": "1870-12-10 10:33:45",
+                    "endDate": "1871-12-07 15:18:51",
+                    "duration": " 0yr 11m 27d",
+                    "startage": " 7yr 10m 28d",
+                    "endage": " 8yr 10m 25d"
+                },
+                "Mars-Ketu": {
+                    "lord": "Ketu",
+                    "dashaLord": "Mars",
+                    "bhuktiNum": 6,
+                    "startDate": "1871-12-07 15:18:51",
+                    "endDate": "1872-05-04 18:40:57",
+                    "duration": " 0yr 4m 27d",
+                    "startage": " 8yr 10m 25d",
+                    "endage": " 9yr 3m 22d"
+                },
+                "Mars-Venus": {
+                    "lord": "Venus",
+                    "dashaLord": "Mars",
+                    "bhuktiNum": 7,
+                    "startDate": "1872-05-04 18:40:57",
+                    "endDate": "1873-07-04 21:26:57",
+                    "duration": " 1yr 2m 0d",
+                    "startage": " 9yr 3m 22d",
+                    "endage": " 10yr 5m 22d"
+                },
+                "Mars-Sun": {
+                    "lord": "Sun",
+                    "dashaLord": "Mars",
+                    "bhuktiNum": 8,
+                    "startDate": "1873-07-04 21:26:57",
+                    "endDate": "1873-11-09 17:28:45",
+                    "duration": " 0yr 4m 4d",
+                    "startage": " 10yr 5m 22d",
+                    "endage": " 10yr 9m 28d"
+                },
+                "Mars-Moon": {
+                    "lord": "Moon",
+                    "dashaLord": "Mars",
+                    "bhuktiNum": 9,
+                    "startDate": "1873-11-09 17:28:45",
+                    "endDate": "1874-06-10 18:51:45",
+                    "duration": " 0yr 7m 1d",
+                    "startage": " 10yr 9m 28d",
+                    "endage": " 11yr 4m 29d"
+                },
+                "Rahu-Rahu": {
+                    "lord": "Rahu",
+                    "dashaLord": "Rahu",
+                    "bhuktiNum": 1,
+                    "startDate": "1874-06-10 18:51:45",
+                    "endDate": "1877-02-20 22:31:21",
+                    "duration": " 2yr 8m 10d",
+                    "startage": " 11yr 4m 29d",
+                    "endage": " 14yr 1m 8d"
+                },
+                "Rahu-Jupiter": {
+                    "lord": "Jupiter",
+                    "dashaLord": "Rahu",
+                    "bhuktiNum": 2,
+                    "startDate": "1877-02-20 22:31:21",
+                    "endDate": "1879-07-17 12:26:33",
+                    "duration": " 2yr 4m 26d",
+                    "startage": " 14yr 1m 8d",
+                    "endage": " 16yr 6m 5d"
+                },
+                "Rahu-Saturn": {
+                    "lord": "Saturn",
+                    "dashaLord": "Rahu",
+                    "bhuktiNum": 3,
+                    "startDate": "1879-07-17 12:26:33",
+                    "endDate": "1882-05-23 10:58:21",
+                    "duration": " 2yr 10m 5d",
+                    "startage": " 16yr 6m 5d",
+                    "endage": " 19yr 4m 11d"
+                },
+                "Rahu-Mercury": {
+                    "lord": "Mercury",
+                    "dashaLord": "Rahu",
+                    "bhuktiNum": 4,
+                    "startDate": "1882-05-23 10:58:21",
+                    "endDate": "1884-12-09 19:45:45",
+                    "duration": " 2yr 6m 16d",
+                    "startage": " 19yr 4m 11d",
+                    "endage": " 21yr 10m 27d"
+                },
+                "Rahu-Ketu": {
+                    "lord": "Ketu",
+                    "dashaLord": "Rahu",
+                    "bhuktiNum": 5,
+                    "startDate": "1884-12-09 19:45:45",
+                    "endDate": "1885-12-28 07:51:09",
+                    "duration": " 1yr 0m 18d",
+                    "startage": " 21yr 10m 27d",
+                    "endage": " 22yr 11m 16d"
+                },
+                "Rahu-Venus": {
+                    "lord": "Venus",
+                    "dashaLord": "Rahu",
+                    "bhuktiNum": 6,
+                    "startDate": "1885-12-28 07:51:09",
+                    "endDate": "1888-12-28 01:15:09",
+                    "duration": " 2yr 11m 29d",
+                    "startage": " 22yr 11m 16d",
+                    "endage": " 25yr 11m 15d"
+                },
+                "Rahu-Sun": {
+                    "lord": "Sun",
+                    "dashaLord": "Rahu",
+                    "bhuktiNum": 7,
+                    "startDate": "1888-12-28 01:15:09",
+                    "endDate": "1889-11-21 18:28:21",
+                    "duration": " 0yr 10m 24d",
+                    "startage": " 25yr 11m 15d",
+                    "endage": " 26yr 10m 9d"
+                },
+                "Rahu-Moon": {
+                    "lord": "Moon",
+                    "dashaLord": "Rahu",
+                    "bhuktiNum": 8,
+                    "startDate": "1889-11-21 18:28:21",
+                    "endDate": "1891-05-23 15:10:21",
+                    "duration": " 1yr 6m 1d",
+                    "startage": " 26yr 10m 9d",
+                    "endage": " 28yr 4m 11d"
+                },
+                "Rahu-Mars": {
+                    "lord": "Mars",
+                    "dashaLord": "Rahu",
+                    "bhuktiNum": 9,
+                    "startDate": "1891-05-23 15:10:21",
+                    "endDate": "1892-06-10 03:15:45",
+                    "duration": " 1yr 0m 17d",
+                    "startage": " 28yr 4m 11d",
+                    "endage": " 29yr 4m 28d"
+                },
+                "Jupiter-Jupiter": {
+                    "lord": "Jupiter",
+                    "dashaLord": "Jupiter",
+                    "bhuktiNum": 1,
+                    "startDate": "1892-06-10 03:15:45",
+                    "endDate": "1894-07-29 07:38:09",
+                    "duration": " 2yr 1m 19d",
+                    "startage": " 29yr 4m 28d",
+                    "endage": " 31yr 6m 17d"
+                },
+                "Jupiter-Saturn": {
+                    "lord": "Saturn",
+                    "dashaLord": "Jupiter",
+                    "bhuktiNum": 2,
+                    "startDate": "1894-07-29 07:38:09",
+                    "endDate": "1897-02-08 14:19:45",
+                    "duration": " 2yr 6m 10d",
+                    "startage": " 31yr 6m 17d",
+                    "endage": " 34yr 0m 27d"
+                },
+                "Jupiter-Mercury": {
+                    "lord": "Mercury",
+                    "dashaLord": "Jupiter",
+                    "bhuktiNum": 3,
+                    "startDate": "1897-02-08 14:19:45",
+                    "endDate": "1899-05-17 11:28:33",
+                    "duration": " 2yr 3m 8d",
+                    "startage": " 34yr 0m 27d",
+                    "endage": " 36yr 4m 5d"
+                },
+                "Jupiter-Ketu": {
+                    "lord": "Ketu",
+                    "dashaLord": "Jupiter",
+                    "bhuktiNum": 4,
+                    "startDate": "1899-05-17 11:28:33",
+                    "endDate": "1900-04-23 08:53:21",
+                    "duration": " 0yr 11m 5d",
+                    "startage": " 36yr 4m 5d",
+                    "endage": " 37yr 3m 11d"
+                },
+                "Jupiter-Venus": {
+                    "lord": "Venus",
+                    "dashaLord": "Jupiter",
+                    "bhuktiNum": 5,
+                    "startDate": "1900-04-23 08:53:21",
+                    "endDate": "1902-12-23 08:21:21",
+                    "duration": " 2yr 7m 29d",
+                    "startage": " 37yr 3m 11d",
+                    "endage": " 39yr 11m 11d"
+                },
+                "Jupiter-Sun": {
+                    "lord": "Sun",
+                    "dashaLord": "Jupiter",
+                    "bhuktiNum": 6,
+                    "startDate": "1902-12-23 08:21:21",
+                    "endDate": "1903-10-11 12:59:45",
+                    "duration": " 0yr 9m 18d",
+                    "startage": " 39yr 11m 11d",
+                    "endage": " 40yr 8m 29d"
+                },
+                "Jupiter-Moon": {
+                    "lord": "Moon",
+                    "dashaLord": "Jupiter",
+                    "bhuktiNum": 7,
+                    "startDate": "1903-10-11 12:59:45",
+                    "endDate": "1905-02-09 12:43:45",
+                    "duration": " 1yr 3m 28d",
+                    "startage": " 40yr 8m 29d",
+                    "endage": " 42yr 0m 28d"
+                },
+                "Jupiter-Mars": {
+                    "lord": "Mars",
+                    "dashaLord": "Jupiter",
+                    "bhuktiNum": 8,
+                    "startDate": "1905-02-09 12:43:45",
+                    "endDate": "1906-01-16 10:08:33",
+                    "duration": " 0yr 11m 6d",
+                    "startage": " 42yr 0m 28d",
+                    "endage": " 43yr 0m 4d"
+                },
+                "Jupiter-Rahu": {
+                    "lord": "Rahu",
+                    "dashaLord": "Jupiter",
+                    "bhuktiNum": 9,
+                    "startDate": "1906-01-16 10:08:33",
+                    "endDate": "1908-06-11 00:03:45",
+                    "duration": " 2yr 4m 25d",
+                    "startage": " 43yr 0m 4d",
+                    "endage": " 45yr 4m 29d"
+                },
+                "Saturn-Saturn": {
+                    "lord": "Saturn",
+                    "dashaLord": "Saturn",
+                    "bhuktiNum": 1,
+                    "startDate": "1908-06-11 00:03:45",
+                    "endDate": "1911-06-14 18:30:39",
+                    "duration": " 3yr 0m 3d",
+                    "startage": " 45yr 4m 29d",
+                    "endage": " 48yr 5m 2d"
+                },
+                "Saturn-Mercury": {
+                    "lord": "Mercury",
+                    "dashaLord": "Saturn",
+                    "bhuktiNum": 2,
+                    "startDate": "1911-06-14 18:30:39",
+                    "endDate": "1914-02-21 21:07:21",
+                    "duration": " 2yr 8m 7d",
+                    "startage": " 48yr 5m 2d",
+                    "endage": " 51yr 1m 9d"
+                },
+                "Saturn-Ketu": {
+                    "lord": "Ketu",
+                    "dashaLord": "Saturn",
+                    "bhuktiNum": 3,
+                    "startDate": "1914-02-21 21:07:21",
+                    "endDate": "1915-04-02 16:33:03",
+                    "duration": " 1yr 1m 11d",
+                    "startage": " 51yr 1m 9d",
+                    "endage": " 52yr 2m 21d"
+                },
+                "Saturn-Venus": {
+                    "lord": "Venus",
+                    "dashaLord": "Saturn",
+                    "bhuktiNum": 4,
+                    "startDate": "1915-04-02 16:33:03",
+                    "endDate": "1918-06-02 06:55:03",
+                    "duration": " 3yr 1m 30d",
+                    "startage": " 52yr 2m 21d",
+                    "endage": " 55yr 4m 21d"
+                },
+                "Saturn-Sun": {
+                    "lord": "Sun",
+                    "dashaLord": "Saturn",
+                    "bhuktiNum": 5,
+                    "startDate": "1918-06-02 06:55:03",
+                    "endDate": "1919-05-15 06:25:39",
+                    "duration": " 0yr 11m 12d",
+                    "startage": " 55yr 4m 21d",
+                    "endage": " 56yr 4m 2d"
+                },
+                "Saturn-Moon": {
+                    "lord": "Moon",
+                    "dashaLord": "Saturn",
+                    "bhuktiNum": 6,
+                    "startDate": "1919-05-15 06:25:39",
+                    "endDate": "1920-12-13 13:36:39",
+                    "duration": " 1yr 6m 28d",
+                    "startage": " 56yr 4m 2d",
+                    "endage": " 57yr 11m 1d"
+                },
+                "Saturn-Mars": {
+                    "lord": "Mars",
+                    "dashaLord": "Saturn",
+                    "bhuktiNum": 7,
+                    "startDate": "1920-12-13 13:36:39",
+                    "endDate": "1922-01-22 09:02:21",
+                    "duration": " 1yr 1m 8d",
+                    "startage": " 57yr 11m 1d",
+                    "endage": " 59yr 0m 10d"
+                },
+                "Saturn-Rahu": {
+                    "lord": "Rahu",
+                    "dashaLord": "Saturn",
+                    "bhuktiNum": 8,
+                    "startDate": "1922-01-22 09:02:21",
+                    "endDate": "1924-11-28 07:34:09",
+                    "duration": " 2yr 10m 5d",
+                    "startage": " 59yr 0m 10d",
+                    "endage": " 61yr 10m 16d"
+                },
+                "Saturn-Jupiter": {
+                    "lord": "Jupiter",
+                    "dashaLord": "Saturn",
+                    "bhuktiNum": 9,
+                    "startDate": "1924-11-28 07:34:09",
+                    "endDate": "1927-06-11 14:15:45",
+                    "duration": " 2yr 6m 14d",
+                    "startage": " 61yr 10m 16d",
+                    "endage": " 64yr 4m 30d"
+                },
+                "Mercury-Mercury": {
+                    "lord": "Mercury",
+                    "dashaLord": "Mercury",
+                    "bhuktiNum": 1,
+                    "startDate": "1927-06-11 14:15:45",
+                    "endDate": "1929-11-07 05:13:51",
+                    "duration": " 2yr 4m 26d",
+                    "startage": " 64yr 4m 30d",
+                    "endage": " 66yr 9m 25d"
+                },
+                "Mercury-Ketu": {
+                    "lord": "Ketu",
+                    "dashaLord": "Mercury",
+                    "bhuktiNum": 2,
+                    "startDate": "1929-11-07 05:13:51",
+                    "endDate": "1930-11-04 09:58:57",
+                    "duration": " 0yr 11m 28d",
+                    "startage": " 66yr 9m 25d",
+                    "endage": " 67yr 9m 23d"
+                },
+                "Mercury-Venus": {
+                    "lord": "Venus",
+                    "dashaLord": "Mercury",
+                    "bhuktiNum": 3,
+                    "startDate": "1930-11-04 09:58:57",
+                    "endDate": "1933-09-04 06:24:57",
+                    "duration": " 2yr 9m 30d",
+                    "startage": " 67yr 9m 23d",
+                    "endage": " 70yr 7m 22d"
+                },
+                "Mercury-Sun": {
+                    "lord": "Sun",
+                    "dashaLord": "Mercury",
+                    "bhuktiNum": 4,
+                    "startDate": "1933-09-04 06:24:57",
+                    "endDate": "1934-07-11 17:20:45",
+                    "duration": " 0yr 10m 7d",
+                    "startage": " 70yr 7m 22d",
+                    "endage": " 71yr 5m 29d"
+                },
+                "Mercury-Moon": {
+                    "lord": "Moon",
+                    "dashaLord": "Mercury",
+                    "bhuktiNum": 5,
+                    "startDate": "1934-07-11 17:20:45",
+                    "endDate": "1935-12-11 03:33:45",
+                    "duration": " 1yr 4m 29d",
+                    "startage": " 71yr 5m 29d",
+                    "endage": " 72yr 10m 28d"
+                },
+                "Mercury-Mars": {
+                    "lord": "Mars",
+                    "dashaLord": "Mercury",
+                    "bhuktiNum": 6,
+                    "startDate": "1935-12-11 03:33:45",
+                    "endDate": "1936-12-07 08:18:51",
+                    "duration": " 0yr 11m 26d",
+                    "startage": " 72yr 10m 28d",
+                    "endage": " 73yr 10m 25d"
+                },
+                "Mercury-Rahu": {
+                    "lord": "Rahu",
+                    "dashaLord": "Mercury",
+                    "bhuktiNum": 7,
+                    "startDate": "1936-12-07 08:18:51",
+                    "endDate": "1939-06-26 17:06:15",
+                    "duration": " 2yr 6m 19d",
+                    "startage": " 73yr 10m 25d",
+                    "endage": " 76yr 5m 14d"
+                },
+                "Mercury-Jupiter": {
+                    "lord": "Jupiter",
+                    "dashaLord": "Mercury",
+                    "bhuktiNum": 8,
+                    "startDate": "1939-06-26 17:06:15",
+                    "endDate": "1941-10-01 14:15:03",
+                    "duration": " 2yr 3m 4d",
+                    "startage": " 76yr 5m 14d",
+                    "endage": " 78yr 8m 19d"
+                },
+                "Mercury-Saturn": {
+                    "lord": "Saturn",
+                    "dashaLord": "Mercury",
+                    "bhuktiNum": 9,
+                    "startDate": "1941-10-01 14:15:03",
+                    "endDate": "1944-06-10 16:51:45",
+                    "duration": " 2yr 8m 9d",
+                    "startage": " 78yr 8m 19d",
+                    "endage": " 81yr 4m 29d"
+                },
+                "Ketu-Ketu": {
+                    "lord": "Ketu",
+                    "dashaLord": "Ketu",
+                    "bhuktiNum": 1,
+                    "startDate": "1944-06-10 16:51:45",
+                    "endDate": "1944-11-06 20:13:51",
+                    "duration": " 0yr 4m 27d",
+                    "startage": " 81yr 4m 29d",
+                    "endage": " 81yr 9m 25d"
+                },
+                "Ketu-Venus": {
+                    "lord": "Venus",
+                    "dashaLord": "Ketu",
+                    "bhuktiNum": 2,
+                    "startDate": "1944-11-06 20:13:51",
+                    "endDate": "1946-01-06 22:59:51",
+                    "duration": " 1yr 2m 0d",
+                    "startage": " 81yr 9m 25d",
+                    "endage": " 82yr 11m 25d"
+                },
+                "Ketu-Sun": {
+                    "lord": "Sun",
+                    "dashaLord": "Ketu",
+                    "bhuktiNum": 3,
+                    "startDate": "1946-01-06 22:59:51",
+                    "endDate": "1946-05-14 19:01:39",
+                    "duration": " 0yr 4m 7d",
+                    "startage": " 82yr 11m 25d",
+                    "endage": " 83yr 4m 2d"
+                },
+                "Ketu-Moon": {
+                    "lord": "Moon",
+                    "dashaLord": "Ketu",
+                    "bhuktiNum": 4,
+                    "startDate": "1946-05-14 19:01:39",
+                    "endDate": "1946-12-13 20:24:39",
+                    "duration": " 0yr 6m 29d",
+                    "startage": " 83yr 4m 2d",
+                    "endage": " 83yr 11m 1d"
+                },
+                "Ketu-Mars": {
+                    "lord": "Mars",
+                    "dashaLord": "Ketu",
+                    "bhuktiNum": 5,
+                    "startDate": "1946-12-13 20:24:39",
+                    "endDate": "1947-05-11 23:46:45",
+                    "duration": " 0yr 4m 28d",
+                    "startage": " 83yr 11m 1d",
+                    "endage": " 84yr 3m 29d"
+                },
+                "Ketu-Rahu": {
+                    "lord": "Rahu",
+                    "dashaLord": "Ketu",
+                    "bhuktiNum": 6,
+                    "startDate": "1947-05-11 23:46:45",
+                    "endDate": "1948-05-29 11:52:09",
+                    "duration": " 1yr 0m 17d",
+                    "startage": " 84yr 3m 29d",
+                    "endage": " 85yr 4m 17d"
+                },
+                "Ketu-Jupiter": {
+                    "lord": "Jupiter",
+                    "dashaLord": "Ketu",
+                    "bhuktiNum": 7,
+                    "startDate": "1948-05-29 11:52:09",
+                    "endDate": "1949-05-05 09:16:57",
+                    "duration": " 0yr 11m 5d",
+                    "startage": " 85yr 4m 17d",
+                    "endage": " 86yr 3m 23d"
+                },
+                "Ketu-Saturn": {
+                    "lord": "Saturn",
+                    "dashaLord": "Ketu",
+                    "bhuktiNum": 8,
+                    "startDate": "1949-05-05 09:16:57",
+                    "endDate": "1950-06-14 04:42:39",
+                    "duration": " 1yr 1m 8d",
+                    "startage": " 86yr 3m 23d",
+                    "endage": " 87yr 5m 1d"
+                },
+                "Ketu-Mercury": {
+                    "lord": "Mercury",
+                    "dashaLord": "Ketu",
+                    "bhuktiNum": 9,
+                    "startDate": "1950-06-14 04:42:39",
+                    "endDate": "1951-06-11 09:27:45",
+                    "duration": " 0yr 11m 28d",
+                    "startage": " 87yr 5m 1d",
+                    "endage": " 88yr 4m 30d"
+                },
+                "Venus-Venus": {
+                    "lord": "Venus",
+                    "dashaLord": "Venus",
+                    "bhuktiNum": 1,
+                    "startDate": "1951-06-11 09:27:45",
+                    "endDate": "1954-10-10 20:47:45",
+                    "duration": " 3yr 3m 29d",
+                    "startage": " 88yr 4m 30d",
+                    "endage": " 91yr 8m 28d"
+                },
+                "Venus-Sun": {
+                    "lord": "Sun",
+                    "dashaLord": "Venus",
+                    "bhuktiNum": 2,
+                    "startDate": "1954-10-10 20:47:45",
+                    "endDate": "1955-10-11 02:35:45",
+                    "duration": " 1yr 0m 0d",
+                    "startage": " 91yr 8m 28d",
+                    "endage": " 92yr 8m 28d"
+                },
+                "Venus-Moon": {
+                    "lord": "Moon",
+                    "dashaLord": "Venus",
+                    "bhuktiNum": 3,
+                    "startDate": "1955-10-11 02:35:45",
+                    "endDate": "1957-06-10 20:15:45",
+                    "duration": " 1yr 7m 30d",
+                    "startage": " 92yr 8m 28d",
+                    "endage": " 94yr 4m 29d"
+                },
+                "Venus-Mars": {
+                    "lord": "Mars",
+                    "dashaLord": "Venus",
+                    "bhuktiNum": 4,
+                    "startDate": "1957-06-10 20:15:45",
+                    "endDate": "1958-08-10 23:01:45",
+                    "duration": " 1yr 2m 0d",
+                    "startage": " 94yr 4m 29d",
+                    "endage": " 95yr 6m 29d"
+                },
+                "Venus-Rahu": {
+                    "lord": "Rahu",
+                    "dashaLord": "Venus",
+                    "bhuktiNum": 5,
+                    "startDate": "1958-08-10 23:01:45",
+                    "endDate": "1961-08-10 16:25:45",
+                    "duration": " 2yr 11m 30d",
+                    "startage": " 95yr 6m 29d",
+                    "endage": " 98yr 6m 29d"
+                },
+                "Venus-Jupiter": {
+                    "lord": "Jupiter",
+                    "dashaLord": "Venus",
+                    "bhuktiNum": 6,
+                    "startDate": "1961-08-10 16:25:45",
+                    "endDate": "1964-04-10 15:53:45",
+                    "duration": " 2yr 7m 30d",
+                    "startage": " 98yr 6m 29d",
+                    "endage": " 101yr 2m 29d"
+                },
+                "Venus-Saturn": {
+                    "lord": "Saturn",
+                    "dashaLord": "Venus",
+                    "bhuktiNum": 7,
+                    "startDate": "1964-04-10 15:53:45",
+                    "endDate": "1967-06-11 06:15:45",
+                    "duration": " 3yr 2m 0d",
+                    "startage": " 101yr 2m 29d",
+                    "endage": " 104yr 4m 29d"
+                },
+                "Venus-Mercury": {
+                    "lord": "Mercury",
+                    "dashaLord": "Venus",
+                    "bhuktiNum": 8,
+                    "startDate": "1967-06-11 06:15:45",
+                    "endDate": "1970-04-11 02:41:45",
+                    "duration": " 2yr 9m 30d",
+                    "startage": " 104yr 4m 29d",
+                    "endage": " 107yr 2m 29d"
+                },
+                "Venus-Ketu": {
+                    "lord": "Ketu",
+                    "dashaLord": "Venus",
+                    "bhuktiNum": 9,
+                    "startDate": "1970-04-11 02:41:45",
+                    "endDate": "1971-06-11 05:27:45",
+                    "duration": " 1yr 2m 0d",
+                    "startage": " 107yr 2m 29d",
+                    "endage": " 108yr 4m 29d"
+                },
+                "Sun-Sun": {
+                    "lord": "Sun",
+                    "dashaLord": "Sun",
+                    "bhuktiNum": 1,
+                    "startDate": "1971-06-11 05:27:45",
+                    "endDate": "1971-09-28 19:12:09",
+                    "duration": " 0yr 3m 17d",
+                    "startage": " 108yr 4m 29d",
+                    "endage": " 108yr 8m 16d"
+                },
+                "Sun-Moon": {
+                    "lord": "Moon",
+                    "dashaLord": "Sun",
+                    "bhuktiNum": 2,
+                    "startDate": "1971-09-28 19:12:09",
+                    "endDate": "1972-03-29 10:06:09",
+                    "duration": " 0yr 6m 0d",
+                    "startage": " 108yr 8m 16d",
+                    "endage": " 109yr 2m 17d"
+                },
+                "Sun-Mars": {
+                    "lord": "Mars",
+                    "dashaLord": "Sun",
+                    "bhuktiNum": 3,
+                    "startDate": "1972-03-29 10:06:09",
+                    "endDate": "1972-08-04 06:07:57",
+                    "duration": " 0yr 4m 5d",
+                    "startage": " 109yr 2m 17d",
+                    "endage": " 109yr 6m 22d"
+                },
+                "Sun-Rahu": {
+                    "lord": "Rahu",
+                    "dashaLord": "Sun",
+                    "bhuktiNum": 4,
+                    "startDate": "1972-08-04 06:07:57",
+                    "endDate": "1973-06-28 23:21:09",
+                    "duration": " 0yr 10m 24d",
+                    "startage": " 109yr 6m 22d",
+                    "endage": " 110yr 5m 16d"
+                },
+                "Sun-Jupiter": {
+                    "lord": "Jupiter",
+                    "dashaLord": "Sun",
+                    "bhuktiNum": 5,
+                    "startDate": "1973-06-28 23:21:09",
+                    "endDate": "1974-04-17 03:59:33",
+                    "duration": " 0yr 9m 19d",
+                    "startage": " 110yr 5m 16d",
+                    "endage": " 111yr 3m 4d"
+                },
+                "Sun-Saturn": {
+                    "lord": "Saturn",
+                    "dashaLord": "Sun",
+                    "bhuktiNum": 6,
+                    "startDate": "1974-04-17 03:59:33",
+                    "endDate": "1975-03-30 03:30:09",
+                    "duration": " 0yr 11m 12d",
+                    "startage": " 111yr 3m 4d",
+                    "endage": " 112yr 2m 17d"
+                },
+                "Sun-Mercury": {
+                    "lord": "Mercury",
+                    "dashaLord": "Sun",
+                    "bhuktiNum": 7,
+                    "startDate": "1975-03-30 03:30:09",
+                    "endDate": "1976-02-03 14:25:57",
+                    "duration": " 0yr 10m 4d",
+                    "startage": " 112yr 2m 17d",
+                    "endage": " 113yr 0m 22d"
+                },
+                "Sun-Ketu": {
+                    "lord": "Ketu",
+                    "dashaLord": "Sun",
+                    "bhuktiNum": 8,
+                    "startDate": "1976-02-03 14:25:57",
+                    "endDate": "1976-06-10 10:27:45",
+                    "duration": " 0yr 4m 6d",
+                    "startage": " 113yr 0m 22d",
+                    "endage": " 113yr 4m 29d"
+                },
+                "Sun-Venus": {
+                    "lord": "Venus",
+                    "dashaLord": "Sun",
+                    "bhuktiNum": 9,
+                    "startDate": "1976-06-10 10:27:45",
+                    "endDate": "1977-06-10 16:15:45",
+                    "duration": " 1yr 0m 0d",
+                    "startage": " 113yr 4m 29d",
+                    "endage": " 114yr 4m 29d"
+                }
+            },
+            "current": {
+                "date": "2025-07-04 01:25:45.105862",
+                "dasha": "",
+                "bhukti": "",
+                "paryantardasha": ""
+            }
+        }
+    },
+    "user_details": {
+        "name": "Vivekananda, Swami",
+        "birthdetails": {
+            "DOB": {
+                "year": 1863,
+                "month": 1,
+                "day": 12
+            },
+            "TOB": {
+                "hour": 6,
+                "min": 33,
+                "sec": 0
+            },
+            "POB": {
+                "name": "Kolkata, India",
+                "lat": 22.53,
+                "lon": 88.36,
+                "timezone": 5.88
+            },
+            "name": "Vivekananda, Swami",
+            "Gender": "male"
+        },
+        "maasa": "Pushya",
+        "vaara": "Sunday",
+        "tithi": "krishna shashti",
+        "karana": "Vishti",
+        "nakshatra": "Hasta",
+        "yoga": "Shobhana",
+        "rashi": "Virgo"
+    }
+}
