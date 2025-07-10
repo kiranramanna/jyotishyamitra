@@ -224,7 +224,7 @@ def create_sample_json():
             "houses": [],
             "Balas": {
                 "Shadbala": {
-                    "Sthanabala": {"Sun": 30, "Moon": 25},
+                    "Sthanbala": {"Sun": 30, "Moon": 25},
                     "Digbala": {"Sun": 15, "Moon": 20},
                     "Kaalabala": {"Sun": 20, "Moon": 15},
                     "Cheshtabala": {"Sun": 10, "Moon": 5},

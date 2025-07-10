@@ -1,0 +1,188 @@
+<?xml version="1.0" ?>
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="365" viewBox="0 0 400 365">
+  <defs>
+    <style>
+            .header { font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; fill: #FF0000; }
+            .table-header { font-family: Arial, sans-serif; font-size: 12px; font-weight: bold; fill: #000000; text-anchor: middle; }
+            .table-cell { font-family: Arial, sans-serif; font-size: 11px; fill: #000000; text-anchor: middle; }
+            .table-label { font-family: Arial, sans-serif; font-size: 11px; font-weight: bold; fill: #000000; text-anchor: middle; }
+        </style>
+  </defs>
+  <rect x="0" y="0" width="400" height="365" fill="white"/>
+  <text x="10" y="25" class="header">ShadBala:</text>
+  <rect x="20" y="50" width="45" height="25" fill="white" stroke="black" stroke-width="1"/>
+  <rect x="65" y="50" width="45" height="25" fill="white" stroke="black" stroke-width="1"/>
+  <text x="87" y="66" class="table-header">Su</text>
+  <rect x="110" y="50" width="45" height="25" fill="white" stroke="black" stroke-width="1"/>
+  <text x="132" y="66" class="table-header">Mo</text>
+  <rect x="155" y="50" width="45" height="25" fill="white" stroke="black" stroke-width="1"/>
+  <text x="177" y="66" class="table-header">Ma</text>
+  <rect x="200" y="50" width="45" height="25" fill="white" stroke="black" stroke-width="1"/>
+  <text x="222" y="66" class="table-header">Me</text>
+  <rect x="245" y="50" width="45" height="25" fill="white" stroke="black" stroke-width="1"/>
+  <text x="267" y="66" class="table-header">Ju</text>
+  <rect x="290" y="50" width="45" height="25" fill="white" stroke="black" stroke-width="1"/>
+  <text x="312" y="66" class="table-header">Ve</text>
+  <rect x="335" y="50" width="45" height="25" fill="white" stroke="black" stroke-width="1"/>
+  <text x="357" y="66" class="table-header">Sa</text>
+  <rect x="20" y="75" width="45" height="25" fill="white" stroke="black" stroke-width="1"/>
+  <text x="42" y="91" class="table-label">SthB</text>
+  <rect x="65" y="75" width="45" height="25" fill="rgb(144, 238, 144)" stroke="black" stroke-width="1"/>
+  <text x="87" y="91" class="table-cell">251</text>
+  <rect x="110" y="75" width="45" height="25" fill="rgb(255, 255, 224)" stroke="black" stroke-width="1"/>
+  <text x="132" y="91" class="table-cell">204</text>
+  <rect x="155" y="75" width="45" height="25" fill="rgb(144, 238, 144)" stroke="black" stroke-width="1"/>
+  <text x="177" y="91" class="table-cell">276</text>
+  <rect x="200" y="75" width="45" height="25" fill="rgb(255, 255, 224)" stroke="black" stroke-width="1"/>
+  <text x="222" y="91" class="table-cell">205</text>
+  <rect x="245" y="75" width="45" height="25" fill="rgb(255, 255, 224)" stroke="black" stroke-width="1"/>
+  <text x="267" y="91" class="table-cell">160</text>
+  <rect x="290" y="75" width="45" height="25" fill="rgb(255, 255, 224)" stroke="black" stroke-width="1"/>
+  <text x="312" y="91" class="table-cell">208</text>
+  <rect x="335" y="75" width="45" height="25" fill="rgb(144, 238, 144)" stroke="black" stroke-width="1"/>
+  <text x="357" y="91" class="table-cell">273</text>
+  <rect x="20" y="100" width="45" height="25" fill="white" stroke="black" stroke-width="1"/>
+  <text x="42" y="116" class="table-label">DigB</text>
+  <rect x="65" y="100" width="45" height="25" fill="rgb(255, 255, 255)" stroke="black" stroke-width="1"/>
+  <text x="87" y="116" class="table-cell">25</text>
+  <rect x="110" y="100" width="45" height="25" fill="rgb(255, 255, 255)" stroke="black" stroke-width="1"/>
+  <text x="132" y="116" class="table-cell">1</text>
+  <rect x="155" y="100" width="45" height="25" fill="rgb(255, 255, 255)" stroke="black" stroke-width="1"/>
+  <text x="177" y="116" class="table-cell">7</text>
+  <rect x="200" y="100" width="45" height="25" fill="rgb(255, 182, 193)" stroke="black" stroke-width="1"/>
+  <text x="222" y="116" class="table-cell">51</text>
+  <rect x="245" y="100" width="45" height="25" fill="rgb(255, 182, 193)" stroke="black" stroke-width="1"/>
+  <text x="267" y="116" class="table-cell">36</text>
+  <rect x="290" y="100" width="45" height="25" fill="rgb(255, 182, 193)" stroke="black" stroke-width="1"/>
+  <text x="312" y="116" class="table-cell">37</text>
+  <rect x="335" y="100" width="45" height="25" fill="rgb(255, 182, 193)" stroke="black" stroke-width="1"/>
+  <text x="357" y="116" class="table-cell">30</text>
+  <rect x="20" y="125" width="45" height="25" fill="white" stroke="black" stroke-width="1"/>
+  <text x="42" y="141" class="table-label">KalB</text>
+  <rect x="65" y="125" width="45" height="25" fill="rgb(255, 182, 193)" stroke="black" stroke-width="1"/>
+  <text x="87" y="141" class="table-cell">57</text>
+  <rect x="110" y="125" width="45" height="25" fill="rgb(255, 255, 224)" stroke="black" stroke-width="1"/>
+  <text x="132" y="141" class="table-cell">125</text>
+  <rect x="155" y="125" width="45" height="25" fill="rgb(255, 255, 224)" stroke="black" stroke-width="1"/>
+  <text x="177" y="141" class="table-cell">167</text>
+  <rect x="200" y="125" width="45" height="25" fill="rgb(255, 255, 224)" stroke="black" stroke-width="1"/>
+  <text x="222" y="141" class="table-cell">146</text>
+  <rect x="245" y="125" width="45" height="25" fill="rgb(144, 238, 144)" stroke="black" stroke-width="1"/>
+  <text x="267" y="141" class="table-cell">239</text>
+  <rect x="290" y="125" width="45" height="25" fill="rgb(255, 182, 193)" stroke="black" stroke-width="1"/>
+  <text x="312" y="141" class="table-cell">67</text>
+  <rect x="335" y="125" width="45" height="25" fill="rgb(255, 182, 193)" stroke="black" stroke-width="1"/>
+  <text x="357" y="141" class="table-cell">82</text>
+  <rect x="20" y="150" width="45" height="25" fill="white" stroke="black" stroke-width="1"/>
+  <text x="42" y="166" class="table-label">ChB</text>
+  <rect x="65" y="150" width="45" height="25" fill="rgb(255, 255, 255)" stroke="black" stroke-width="1"/>
+  <text x="87" y="166" class="table-cell">4</text>
+  <rect x="110" y="150" width="45" height="25" fill="rgb(255, 255, 255)" stroke="black" stroke-width="1"/>
+  <text x="132" y="166" class="table-cell">26</text>
+  <rect x="155" y="150" width="45" height="25" fill="rgb(255, 182, 193)" stroke="black" stroke-width="1"/>
+  <text x="177" y="166" class="table-cell">52</text>
+  <rect x="200" y="150" width="45" height="25" fill="rgb(255, 255, 255)" stroke="black" stroke-width="1"/>
+  <text x="222" y="166" class="table-cell">25</text>
+  <rect x="245" y="150" width="45" height="25" fill="rgb(255, 182, 193)" stroke="black" stroke-width="1"/>
+  <text x="267" y="166" class="table-cell">44</text>
+  <rect x="290" y="150" width="45" height="25" fill="rgb(255, 255, 255)" stroke="black" stroke-width="1"/>
+  <text x="312" y="166" class="table-cell">8</text>
+  <rect x="335" y="150" width="45" height="25" fill="rgb(255, 182, 193)" stroke="black" stroke-width="1"/>
+  <text x="357" y="166" class="table-cell">44</text>
+  <rect x="20" y="175" width="45" height="25" fill="white" stroke="black" stroke-width="1"/>
+  <text x="42" y="191" class="table-label">NaiB</text>
+  <rect x="65" y="175" width="45" height="25" fill="rgb(255, 182, 193)" stroke="black" stroke-width="1"/>
+  <text x="87" y="191" class="table-cell">60</text>
+  <rect x="110" y="175" width="45" height="25" fill="rgb(255, 182, 193)" stroke="black" stroke-width="1"/>
+  <text x="132" y="191" class="table-cell">51</text>
+  <rect x="155" y="175" width="45" height="25" fill="rgb(255, 255, 255)" stroke="black" stroke-width="1"/>
+  <text x="177" y="191" class="table-cell">17</text>
+  <rect x="200" y="175" width="45" height="25" fill="rgb(255, 255, 255)" stroke="black" stroke-width="1"/>
+  <text x="222" y="191" class="table-cell">26</text>
+  <rect x="245" y="175" width="45" height="25" fill="rgb(255, 182, 193)" stroke="black" stroke-width="1"/>
+  <text x="267" y="191" class="table-cell">34</text>
+  <rect x="290" y="175" width="45" height="25" fill="rgb(255, 182, 193)" stroke="black" stroke-width="1"/>
+  <text x="312" y="191" class="table-cell">43</text>
+  <rect x="335" y="175" width="45" height="25" fill="rgb(255, 255, 255)" stroke="black" stroke-width="1"/>
+  <text x="357" y="191" class="table-cell">9</text>
+  <rect x="20" y="200" width="45" height="25" fill="white" stroke="black" stroke-width="1"/>
+  <text x="42" y="216" class="table-label">DriB</text>
+  <rect x="65" y="200" width="45" height="25" fill="rgb(255, 255, 255)" stroke="black" stroke-width="1"/>
+  <text x="87" y="216" class="table-cell">-14</text>
+  <rect x="110" y="200" width="45" height="25" fill="rgb(255, 255, 255)" stroke="black" stroke-width="1"/>
+  <text x="132" y="216" class="table-cell">2</text>
+  <rect x="155" y="200" width="45" height="25" fill="rgb(255, 255, 255)" stroke="black" stroke-width="1"/>
+  <text x="177" y="216" class="table-cell">0</text>
+  <rect x="200" y="200" width="45" height="25" fill="rgb(255, 255, 255)" stroke="black" stroke-width="1"/>
+  <text x="222" y="216" class="table-cell">-7</text>
+  <rect x="245" y="200" width="45" height="25" fill="rgb(255, 255, 255)" stroke="black" stroke-width="1"/>
+  <text x="267" y="216" class="table-cell">-8</text>
+  <rect x="290" y="200" width="45" height="25" fill="rgb(255, 255, 255)" stroke="black" stroke-width="1"/>
+  <text x="312" y="216" class="table-cell">-9</text>
+  <rect x="335" y="200" width="45" height="25" fill="rgb(255, 255, 255)" stroke="black" stroke-width="1"/>
+  <text x="357" y="216" class="table-cell">5</text>
+  <rect x="20" y="225" width="45" height="25" fill="white" stroke="black" stroke-width="1"/>
+  <text x="42" y="241" class="table-label">YudB</text>
+  <rect x="65" y="225" width="45" height="25" fill="rgb(255, 255, 255)" stroke="black" stroke-width="1"/>
+  <text x="87" y="241" class="table-cell">0</text>
+  <rect x="110" y="225" width="45" height="25" fill="rgb(255, 255, 255)" stroke="black" stroke-width="1"/>
+  <text x="132" y="241" class="table-cell">0</text>
+  <rect x="155" y="225" width="45" height="25" fill="rgb(255, 255, 255)" stroke="black" stroke-width="1"/>
+  <text x="177" y="241" class="table-cell">0</text>
+  <rect x="200" y="225" width="45" height="25" fill="rgb(255, 255, 255)" stroke="black" stroke-width="1"/>
+  <text x="222" y="241" class="table-cell">0</text>
+  <rect x="245" y="225" width="45" height="25" fill="rgb(255, 255, 255)" stroke="black" stroke-width="1"/>
+  <text x="267" y="241" class="table-cell">0</text>
+  <rect x="290" y="225" width="45" height="25" fill="rgb(255, 255, 255)" stroke="black" stroke-width="1"/>
+  <text x="312" y="241" class="table-cell">0</text>
+  <rect x="335" y="225" width="45" height="25" fill="rgb(255, 255, 255)" stroke="black" stroke-width="1"/>
+  <text x="357" y="241" class="table-cell">0</text>
+  <rect x="20" y="250" width="45" height="25" fill="white" stroke="black" stroke-width="1"/>
+  <text x="42" y="266" class="table-label">Total</text>
+  <rect x="65" y="250" width="45" height="25" fill="white" stroke="black" stroke-width="1"/>
+  <text x="87" y="266" class="table-cell">383</text>
+  <rect x="110" y="250" width="45" height="25" fill="white" stroke="black" stroke-width="1"/>
+  <text x="132" y="266" class="table-cell">409</text>
+  <rect x="155" y="250" width="45" height="25" fill="white" stroke="black" stroke-width="1"/>
+  <text x="177" y="266" class="table-cell">519</text>
+  <rect x="200" y="250" width="45" height="25" fill="white" stroke="black" stroke-width="1"/>
+  <text x="222" y="266" class="table-cell">446</text>
+  <rect x="245" y="250" width="45" height="25" fill="white" stroke="black" stroke-width="1"/>
+  <text x="267" y="266" class="table-cell">505</text>
+  <rect x="290" y="250" width="45" height="25" fill="white" stroke="black" stroke-width="1"/>
+  <text x="312" y="266" class="table-cell">354</text>
+  <rect x="335" y="250" width="45" height="25" fill="white" stroke="black" stroke-width="1"/>
+  <text x="357" y="266" class="table-cell">443</text>
+  <rect x="20" y="275" width="45" height="25" fill="white" stroke="black" stroke-width="1"/>
+  <text x="42" y="291" class="table-label">Rank</text>
+  <rect x="65" y="275" width="45" height="25" fill="white" stroke="black" stroke-width="1"/>
+  <text x="87" y="291" class="table-cell">6</text>
+  <rect x="110" y="275" width="45" height="25" fill="white" stroke="black" stroke-width="1"/>
+  <text x="132" y="291" class="table-cell">5</text>
+  <rect x="155" y="275" width="45" height="25" fill="white" stroke="black" stroke-width="1"/>
+  <text x="177" y="291" class="table-cell">1</text>
+  <rect x="200" y="275" width="45" height="25" fill="white" stroke="black" stroke-width="1"/>
+  <text x="222" y="291" class="table-cell">3</text>
+  <rect x="245" y="275" width="45" height="25" fill="white" stroke="black" stroke-width="1"/>
+  <text x="267" y="291" class="table-cell">2</text>
+  <rect x="290" y="275" width="45" height="25" fill="white" stroke="black" stroke-width="1"/>
+  <text x="312" y="291" class="table-cell">7</text>
+  <rect x="335" y="275" width="45" height="25" fill="white" stroke="black" stroke-width="1"/>
+  <text x="357" y="291" class="table-cell">4</text>
+  <rect x="20" y="300" width="45" height="25" fill="white" stroke="black" stroke-width="1"/>
+  <text x="42" y="316" class="table-label">%</text>
+  <rect x="65" y="300" width="45" height="25" fill="rgb(255, 255, 224)" stroke="black" stroke-width="1"/>
+  <text x="87" y="316" class="table-cell">98.2%</text>
+  <rect x="110" y="300" width="45" height="25" fill="rgb(144, 238, 144)" stroke="black" stroke-width="1"/>
+  <text x="132" y="316" class="table-cell">113.6%</text>
+  <rect x="155" y="300" width="45" height="25" fill="rgb(144, 238, 144)" stroke="black" stroke-width="1"/>
+  <text x="177" y="316" class="table-cell">173.0%</text>
+  <rect x="200" y="300" width="45" height="25" fill="rgb(144, 238, 144)" stroke="black" stroke-width="1"/>
+  <text x="222" y="316" class="table-cell">106.2%</text>
+  <rect x="245" y="300" width="45" height="25" fill="rgb(144, 238, 144)" stroke="black" stroke-width="1"/>
+  <text x="267" y="316" class="table-cell">129.5%</text>
+  <rect x="290" y="300" width="45" height="25" fill="rgb(144, 238, 144)" stroke="black" stroke-width="1"/>
+  <text x="312" y="316" class="table-cell">107.3%</text>
+  <rect x="335" y="300" width="45" height="25" fill="rgb(144, 238, 144)" stroke="black" stroke-width="1"/>
+  <text x="357" y="316" class="table-cell">147.7%</text>
+</svg>

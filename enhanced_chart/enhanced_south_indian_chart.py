@@ -29,6 +29,16 @@ from pathlib import Path
 from xml.etree.ElementTree import Element, SubElement, tostring
 from xml.dom import minidom
 
+# Import chart generators
+try:
+    from chart_generators import (
+        AshtakavargaChart, PlanetaryInfoChart, 
+        ShadbalaChart, VimshottariChart
+    )
+    CHART_GENERATORS_AVAILABLE = True
+except ImportError:
+    CHART_GENERATORS_AVAILABLE = False
+
 # Configuration constants
 CANVAS_SIZE = 800
 MARGIN = 50
@@ -853,24 +863,71 @@ def prettify_xml(elem):
     reparsed = minidom.parseString(rough_string)
     return reparsed.toprettyxml(indent='  ')
 
+def generate_additional_charts(chart_data, output_dir):
+    """Generate additional astrological charts as PNG files."""
+    if not CHART_GENERATORS_AVAILABLE:
+        print("Chart generators not available. Skipping additional charts.")
+        return
+    
+    output_path = Path(output_dir)
+    generated_files = []
+    
+    try:
+        # Generate Ashtakavarga chart
+        ashtakavarga_generator = AshtakavargaChart(chart_data, output_path)
+        ashtakavarga_files = ashtakavarga_generator.generate_all()
+        generated_files.extend(ashtakavarga_files)
+        print(f"Generated Ashtakavarga charts: {len(ashtakavarga_files)} files")
+        
+        # Generate Planetary Info chart
+        planetary_info_generator = PlanetaryInfoChart(chart_data, output_path)
+        planetary_info_file = planetary_info_generator.generate()
+        generated_files.append(planetary_info_file)
+        print(f"Generated Planetary Info chart: {planetary_info_file}")
+        
+        # Generate Shadbala chart
+        shadbala_generator = ShadbalaChart(chart_data, output_path)
+        shadbala_file = shadbala_generator.generate()
+        generated_files.append(shadbala_file)
+        print(f"Generated Shadbala chart: {shadbala_file}")
+        
+        # Generate Vimshottari chart
+        vimshottari_generator = VimshottariChart(chart_data, output_path)
+        vimshottari_file = vimshottari_generator.generate()
+        generated_files.append(vimshottari_file)
+        print(f"Generated Vimshottari chart: {vimshottari_file}")
+        
+        print(f"\nTotal additional charts generated: {len(generated_files)}")
+        
+    except Exception as e:
+        print(f"Error generating additional charts: {e}")
+    
+    return generated_files
+
 def main():
     """Main function to handle command line arguments and generate SVG."""
     global DIVISIONAL_CHART
     
-    if len(sys.argv) < 2 or len(sys.argv) > 3:
-        print("Usage: python enhanced_south_indian_chart.py <json_file> [divisional_chart]")
+    if len(sys.argv) < 2 or len(sys.argv) > 4:
+        print("Usage: python enhanced_south_indian_chart.py <json_file> [divisional_chart] [--generate-all]")
         print("Example: python enhanced_south_indian_chart.py ../chart_creator/swami_vivekananda_chart-d1.json")
         print("Example: python enhanced_south_indian_chart.py ../chart_creator/swami_vivekananda_chart-d1.json D2")
+        print("Example: python enhanced_south_indian_chart.py ../chart_creator/swami_vivekananda_chart-d1.json D1 --generate-all")
         print("Available divisional charts: D1 (default), D2, D3, D4, D7, D9, D10, D12, D16, D20, D24, D27, D30, D40, D45, D60")
         sys.exit(1)
     
     json_file = Path(sys.argv[1])
+    generate_all = False
     
-    # Optional divisional chart argument
-    if len(sys.argv) == 3:
-        DIVISIONAL_CHART = sys.argv[2].upper()
-        if not DIVISIONAL_CHART.startswith('D'):
-            DIVISIONAL_CHART = f"D{DIVISIONAL_CHART}"
+    # Parse arguments
+    for i in range(2, len(sys.argv)):
+        arg = sys.argv[i]
+        if arg == '--generate-all':
+            generate_all = True
+        elif arg.upper().startswith('D') or arg.isdigit():
+            DIVISIONAL_CHART = arg.upper()
+            if not DIVISIONAL_CHART.startswith('D'):
+                DIVISIONAL_CHART = f"D{DIVISIONAL_CHART}"
     if not json_file.exists():
         print(f"Error: JSON file '{json_file}' not found.")
         sys.exit(1)
@@ -906,8 +963,13 @@ def main():
         
         print(f"Enhanced South Indian chart generated successfully: {output_file}")
         
+        # Generate additional charts if requested
+        if generate_all:
+            print("\nGenerating additional charts...")
+            generate_additional_charts(chart_data, Path(__file__).parent)
+        
         # Debug info
-        print(f"Divisional Chart: {DIVISIONAL_CHART} ({chart_data[DIVISIONAL_CHART].get('name', DIVISIONAL_CHART)})")
+        print(f"\nDivisional Chart: {DIVISIONAL_CHART} ({chart_data[DIVISIONAL_CHART].get('name', DIVISIONAL_CHART)})")
         ascendant_sign = calculate_ascendant_sign(chart_data)
         sign_names = SIGN_NAMES_VEDIC if LABEL_OPTIONS == "vedic" else SIGN_NAMES_WESTERN
         print(f"Ascendant in: {sign_names[ascendant_sign]}")

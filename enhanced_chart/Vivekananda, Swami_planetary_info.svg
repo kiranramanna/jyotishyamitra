@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="270" viewBox="0 0 300 270">
+  <defs>
+    <style>
+            .header { font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; fill: #FF0000; }
+            .planet-symbol { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; }
+            .planet-name { font-family: Arial, sans-serif; font-size: 12px; fill: #000000; }
+            .position-text { font-family: Arial, sans-serif; font-size: 10px; fill: #000000; }
+        </style>
+  </defs>
+  <rect x="0" y="0" width="300" height="270" fill="white"/>
+  <text x="10" y="25" class="header">Planetary Info:</text>
+  <text x="15" y="50" class="planet-symbol" fill="rgb(255, 0, 0)">Asc</text>
+  <text x="40" y="50" class="planet-name">Ascendant</text>
+  <text x="115" y="50" class="position-text">26°12'27&quot; ♐</text>
+  <text x="15" y="68" class="planet-symbol" fill="rgb(255, 140, 0)">☉</text>
+  <text x="40" y="68" class="planet-name">Sun</text>
+  <text x="115" y="68" class="position-text">29°25'24&quot; ♐</text>
+  <text x="15" y="86" class="planet-symbol" fill="rgb(0, 100, 200)">☽</text>
+  <text x="40" y="86" class="planet-name">Moon</text>
+  <text x="115" y="86" class="position-text">17°27'10&quot; ♍</text>
+  <text x="15" y="104" class="planet-symbol" fill="rgb(255, 0, 0)">♂</text>
+  <text x="40" y="104" class="planet-name">Mars</text>
+  <text x="115" y="104" class="position-text">6°19'25&quot; ♈</text>
+  <text x="15" y="122" class="planet-symbol" fill="rgb(0, 150, 0)">☿</text>
+  <text x="40" y="122" class="planet-name">Mercury</text>
+  <text x="115" y="122" class="position-text">11°46'24&quot; ♑</text>
+  <text x="15" y="140" class="planet-symbol" fill="rgb(255, 165, 0)">♃</text>
+  <text x="40" y="140" class="planet-name">Jupiter</text>
+  <text x="115" y="140" class="position-text">4°00'49&quot; ♎</text>
+  <text x="15" y="158" class="planet-symbol" fill="rgb(128, 0, 128)">♀</text>
+  <text x="40" y="158" class="planet-name">Venus</text>
+  <text x="115" y="158" class="position-text">7°06'12&quot; ♑</text>
+  <text x="15" y="176" class="planet-symbol" fill="rgb(0, 0, 139)">♄</text>
+  <text x="40" y="176" class="planet-name">Saturn</text>
+  <text x="115" y="176" class="position-text">13°34'24&quot; ♍</text>
+  <text x="15" y="194" class="planet-symbol" fill="rgb(139, 69, 19)">☊</text>
+  <text x="40" y="194" class="planet-name">Rahu</text>
+  <text x="115" y="194" class="position-text">22°14'49&quot; ♏ R</text>
+  <text x="15" y="212" class="planet-symbol" fill="rgb(105, 105, 105)">☋</text>
+  <text x="40" y="212" class="planet-name">Ketu</text>
+  <text x="115" y="212" class="position-text">22°14'49&quot; ♉ R</text>
+</svg>
